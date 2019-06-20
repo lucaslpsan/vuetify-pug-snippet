@@ -1,0 +1,41 @@
+{
+    "name": "vuetify-pug-snippet",
+    "displayName": "vuetify-pug-snippet",
+    "description": "Snippet for the Vuetify framework using Pug. Type faster with Auto Completion and Identation.",
+    "author": "Lucaslpsan",
+    "version": "0.1.0",
+    "license": "MIT",
+    "preview": true,
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "galleryBanner": {
+        "color": "#CCAC8D",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lucaslpsan/vuetify-pug-snippet.git"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+        "vuetify",
+        "vuetify snippet",
+        "vuetify autocomplete",
+        "pug snippet",
+        "vuetify pug"
+      ],
+    "extensionDependencies": [
+        "octref.vetur"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "jade",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

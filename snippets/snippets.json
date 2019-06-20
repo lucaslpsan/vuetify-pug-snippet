@@ -1,0 +1,1125 @@
+{
+	"Template with v-slot": {
+		"prefix": "templateSlotActivator",
+		"body": [
+			"template(v-slot:activator)",
+			"\t$0"
+		],
+		"description": "template with v-slot-activator"
+	},
+	"Vuetify v-alert": {
+		"prefix": "vAlert",
+		"body": [
+			"v-alert",
+			"\t$0"
+		],
+		"description": "v-alert Component"
+	},
+	"Vuetify v-app": {
+		"prefix": "vApp",
+		"body": [
+			"v-app",
+			"\t$0"
+		],
+		"description": "v-app Component"
+	},
+	"Vuetify v-autocomplete": {
+		"prefix": "vAutocomplete",
+		"body": [
+			"v-autocomplete",
+			"\t$0"
+		],
+		"description": "v-autocomplete Component"
+	},
+	"Vuetify v-avatar": {
+		"prefix": "vAvatar",
+		"body": [
+			"v-avatar",
+			"\t$0"
+		],
+		"description": "v-avatar Component"
+	},
+	"Vuetify v-badge": {
+		"prefix": "vBadge",
+		"body": [
+			"v-badge",
+			"\t$0"
+		],
+		"description": "v-badge Component"
+	},
+	"Vuetify v-bottom-nav": {
+		"prefix": "vBottomNav",
+		"body": [
+			"v-bottom-nav",
+			"\t$0"
+		],
+		"description": "v-bottom-nav Component"
+	},
+	"Vuetify v-bottom-sheet": {
+		"prefix": "vBottomSheet",
+		"body": [
+			"v-bottom-sheet",
+			"\t$0"
+		],
+		"description": "v-bottom-sheet Component"
+	},
+	"Vuetify v-bottom-sheet-transition": {
+		"prefix": "vBottomSheetTransition",
+		"body": [
+			"v-bottom-sheet-transition",
+			"\t$0"
+		],
+		"description": "v-bottom-sheet-transition Transition"
+	},
+	"Vuetify v-breadcrumbs": {
+		"prefix": "vBreadcrumbs",
+		"body": [
+			"v-breadcrumbs",
+			"\t$0"
+		],
+		"description": "v-breadcrumbs Component"
+	},
+	"Vuetify v-breadcrumbs-divider": {
+		"prefix": "vBreadcrumbsDivider",
+		"body": [
+			"v-breadcrumbs-divider",
+			"\t$0"
+		],
+		"description": "v-breadcrumbs-divider Functional Components"
+	},
+	"Vuetify v-breadcrumbs-item": {
+		"prefix": "vBreadcrumbsItem",
+		"body": [
+			"v-breadcrumbs-item",
+			"\t$0"
+		],
+		"description": "v-breadcrumbs-item Component"
+	},
+	"Vuetify v-btn": {
+		"prefix": "vBtn",
+		"body": [
+			"v-btn(@click=\"${method}\")",
+			"\t$0"
+		],
+		"description": "v-btn Component"
+	},
+	"Vuetify v-btn with color": {
+		"prefix": "vBtnColor",
+		"body": [
+			"v-btn(@click=\"${method}\" color=\"${primary}\")",
+			"\t$0"
+		],
+		"description": "v-btn Component"
+	},
+	"Vuetify v-btn-toggle": {
+		"prefix": "vBtnToggle",
+		"body": [
+			"v-btn-toggle",
+			"\t$0"
+		],
+		"description": "v-btn-toggle Component"
+	},
+	"Vuetify v-calendar": {
+		"prefix": "vCalendar",
+		"body": [
+			"v-calendar",
+			"\t$0"
+		],
+		"description": "v-calendar Component"
+	},
+	"Vuetify v-calendar-daily": {
+		"prefix": "vCalendarDaily",
+		"body": [
+			"v-calendar-daily",
+			"\t$0"
+		],
+		"description": "v-calendar-daily Component"
+	},
+	"Vuetify v-calendar-monthly": {
+		"prefix": "vCalendarMonthly",
+		"body": [
+			"v-calendar-monthly",
+			"\t$0"
+		],
+		"description": "v-calendar-monthly Component"
+	},
+	"Vuetify v-calendar-weekly": {
+		"prefix": "vCalendarWeekly",
+		"body": [
+			"v-calendar-weekly",
+			"\t$0"
+		],
+		"description": "v-calendar-weekly Component"
+	},
+	"Vuetify v-card": {
+		"prefix": "vCard",
+		"body": [
+			"v-card",
+			"\t$0"
+		],
+		"description": "v-card Component"
+	},
+	"Vuetify v-card-actions": {
+		"prefix": "vCardActions",
+		"body": [
+			"v-card-actions",
+			"\t$0"
+		],
+		"description": "v-card-actions Functional Components"
+	},
+	"Vuetify v-card-media": {
+		"prefix": "vCardMedia",
+		"body": [
+			"v-card-media",
+			"\t$0"
+		],
+		"description": "v-card-media Component"
+	},
+	"Vuetify v-card-text": {
+		"prefix": "vCardText",
+		"body": [
+			"v-card-text "
+		],
+		"description": "v-card-text Functional Components"
+	},
+	"Vuetify v-card-title": {
+		"prefix": "vCardTitle",
+		"body": [
+			"v-card-title",
+			"\t$0"
+		],
+		"description": "v-card-title Component"
+	},
+	"Vuetify v-carousel": {
+		"prefix": "vCarousel",
+		"body": [
+			"v-carousel",
+			"\t$0"
+		],
+		"description": "v-carousel Component"
+	},
+	"Vuetify v-carousel-item": {
+		"prefix": "vCarouselItem",
+		"body": [
+			"v-carousel-item",
+			"\t$0"
+		],
+		"description": "v-carousel-item Component"
+	},
+	"Vuetify v-carousel-reverse-transition": {
+		"prefix": "vCarouselReverseTransition",
+		"body": [
+			"v-carousel-reverse-transition",
+			"\t$0"
+		],
+		"description": "v-carousel-reverse-transition Transition"
+	},
+	"Vuetify v-carousel-transition": {
+		"prefix": "vCarouselTransition",
+		"body": [
+			"v-carousel-transition",
+			"\t$0"
+		],
+		"description": "v-carousel-transition Transition"
+	},
+	"Vuetify v-checkbox": {
+		"prefix": "vCheckbox",
+		"body": [
+			"v-checkbox",
+			"\t$0"
+		],
+		"description": "v-checkbox Component"
+	},
+	"Vuetify v-chip": {
+		"prefix": "vChip",
+		"body": [
+			"v-chip",
+			"\t$0"
+		],
+		"description": "v-chip Component"
+	},
+	"Vuetify v-combobox": {
+		"prefix": "vCombobox",
+		"body": [
+			"v-combobox",
+			"\t$0"
+		],
+		"description": "v-combobox Component"
+	},
+	"Vuetify v-container": {
+		"prefix": "vContainer",
+		"body": [
+			"v-container",
+			"\t$0"
+		],
+		"description": "v-container Grid Component"
+	},
+	"Vuetify v-content": {
+		"prefix": "vContent",
+		"body": [
+			"v-content",
+			"\t$0"
+		],
+		"description": "v-content Component"
+	},
+	"Vuetify v-counter": {
+		"prefix": "vCounter",
+		"body": [
+			"v-counter",
+			"\t$0"
+		],
+		"description": "v-counter Component"
+	},
+	"Vuetify v-data-iterator": {
+		"prefix": "vDataIterator",
+		"body": [
+			"v-data-iterator",
+			"\t$0"
+		],
+		"description": "v-data-iterator Component"
+	},
+	"Vuetify v-data-table": {
+		"prefix": "vDataTable",
+		"body": [
+			"v-data-table",
+			"\t$0"
+		],
+		"description": "v-data-table Component"
+	},
+	"Vuetify v-date-picker": {
+		"prefix": "vDatePicker",
+		"body": [
+			"v-date-picker",
+			"\t$0"
+		],
+		"description": "v-date-picker Component"
+	},
+	"Vuetify v-date-picker-date-table": {
+		"prefix": "vDatePickerDateTable",
+		"body": [
+			"v-date-picker-date-table",
+			"\t$0"
+		],
+		"description": "v-date-picker-date-table Component"
+	},
+	"Vuetify v-date-picker-header": {
+		"prefix": "vDatePickerHeader",
+		"body": [
+			"v-date-picker-header",
+			"\t$0"
+		],
+		"description": "v-date-picker-header Component"
+	},
+	"Vuetify v-date-picker-month-table": {
+		"prefix": "vDatePickerMonthTable",
+		"body": [
+			"v-date-picker-month-table",
+			"\t$0"
+		],
+		"description": "v-date-picker-month-table Component"
+	},
+	"Vuetify v-date-picker-title": {
+		"prefix": "vDatePickerTitle",
+		"body": [
+			"v-date-picker-title",
+			"\t$0"
+		],
+		"description": "v-date-picker-title Component"
+	},
+	"Vuetify v-date-picker-years": {
+		"prefix": "vDatePickerYears",
+		"body": [
+			"v-date-picker-years",
+			"\t$0"
+		],
+		"description": "v-date-picker-years Component"
+	},
+	"Vuetify v-dialog": {
+		"prefix": "vDialog",
+		"body": [
+			"v-dialog(v-model=\"${false}\")",
+			"\t$0"
+		],
+		"description": "v-dialog Component"
+	},
+	"Vuetify v-dialog-bottom-transition": {
+		"prefix": "vDialogBottomTransition",
+		"body": [
+			"v-dialog-bottom-transition",
+			"\t$0"
+		],
+		"description": "v-dialog-bottom-transition Transition"
+	},
+	"Vuetify v-dialog-transition": {
+		"prefix": "vDialogTransition",
+		"body": [
+			"v-dialog-transition",
+			"\t$0"
+		],
+		"description": "v-dialog-transition Transition"
+	},
+	"Vuetify v-divider": {
+		"prefix": "vDivider",
+		"body": [
+			"v-divider",
+			"\t$0"
+		],
+		"description": "v-divider Component"
+	},
+	"Vuetify v-edit-dialog": {
+		"prefix": "vEditDialog",
+		"body": [
+			"v-edit-dialog",
+			"\t$0"
+		],
+		"description": "v-edit-dialog Component"
+	},
+	"Vuetify v-expand-transition": {
+		"prefix": "vExpandTransition",
+		"body": [
+			"v-expand-transition",
+			"\t$0"
+		],
+		"description": "v-expand-transition Transition"
+	},
+	"Vuetify v-expand-x-transition": {
+		"prefix": "vExpandXTransition",
+		"body": [
+			"v-expand-x-transition",
+			"\t$0"
+		],
+		"description": "v-expand-x-transition Transition"
+	},
+	"Vuetify v-expansion-panel": {
+		"prefix": "vExpansionPanel",
+		"body": [
+			"v-expansion-panel",
+			"\t$0"
+		],
+		"description": "v-expansion-panel Component"
+	},
+	"Vuetify v-expansion-panel-content": {
+		"prefix": "vExpansionPanelContent",
+		"body": [
+			"v-expansion-panel-content",
+			"\t$0"
+		],
+		"description": "v-expansion-panel-content Component"
+	},
+	"Vuetify v-fab-transition": {
+		"prefix": "vFabTransition",
+		"body": [
+			"v-fab-transition",
+			"\t$0"
+		],
+		"description": "v-fab-transition Transition"
+	},
+	"Vuetify v-fade-transition": {
+		"prefix": "vFadeTransition",
+		"body": [
+			"v-fade-transition",
+			"\t$0"
+		],
+		"description": "v-fade-transition Transition"
+	},
+	"Vuetify v-flex": {
+		"prefix": "vFlex",
+		"body": [
+			"v-flex",
+			"\t$0"
+		],
+		"description": "v-flex Grid Component"
+	},
+	"Vuetify v-flex with class": {
+		"prefix": "vFlexClass",
+		"body": [
+			"v-flex(class=\"${class}\")",
+			"\t$0"
+		],
+		"description": "v-flex Grid Component"
+	},
+	"Vuetify v-footer": {
+		"prefix": "vFooter",
+		"body": [
+			"v-footer",
+			"\t$0"
+		],
+		"description": "v-footer Component"
+	},
+	"Vuetify v-form": {
+		"prefix": "vForm",
+		"body": [
+			"v-form",
+			"\t$0"
+		],
+		"description": "v-form Component"
+	},
+	"Vuetify v-hover": {
+		"prefix": "vHover",
+		"body": [
+			"v-hover",
+			"\t$0"
+		],
+		"description": "v-hover Component"
+	},
+	"Vuetify v-icon": {
+		"prefix": "vIcon",
+		"body": [
+			"v-icon ${add}"
+		],
+		"description": "v-icon Component"
+	},
+	"Vuetify v-img": {
+		"prefix": "vImg",
+		"body": [
+			"v-img",
+			"\t$0"
+		],
+		"description": "v-img Component"
+	},
+	"Vuetify v-input": {
+		"prefix": "vInput",
+		"body": [
+			"v-input",
+			"\t$0"
+		],
+		"description": "v-input Component"
+	},
+	"Vuetify v-item": {
+		"prefix": "vItem",
+		"body": [
+			"v-item",
+			"\t$0"
+		],
+		"description": "v-item Component"
+	},
+	"Vuetify v-item-group": {
+		"prefix": "vItemGroup",
+		"body": [
+			"v-item-group",
+			"\t$0"
+		],
+		"description": "v-item-group Component"
+	},
+	"Vuetify v-jumbotron": {
+		"prefix": "vJumbotron",
+		"body": [
+			"v-jumbotron",
+			"\t$0"
+		],
+		"description": "v-jumbotron Component"
+	},
+	"Vuetify v-label": {
+		"prefix": "vLabel",
+		"body": [
+			"v-label",
+			"\t$0"
+		],
+		"description": "v-label Component"
+	},
+	"Vuetify v-layout": {
+		"prefix": "vLayout",
+		"body": [
+			"v-layout",
+			"\t$0"
+		],
+		"description": "v-layout Grid Component"
+	},
+	"Vuetify v-list": {
+		"prefix": "vList",
+		"body": [
+			"v-list",
+			"\t$0"
+		],
+		"description": "v-list Component"
+	},
+	"Vuetify v-list-group": {
+		"prefix": "vListGroup",
+		"body": [
+			"v-list-group",
+			"\t$0"
+		],
+		"description": "v-list-group Component"
+	},
+	"Vuetify v-list-group with v-for": {
+		"prefix": "vListGroupFor",
+		"body": [
+			"v-list-group(v-for=\"${item} in ${items}\" :key=\"${item}.${key}\")",
+			"\t$0"
+		],
+		"description": "v-list-group Component"
+	},
+	"Vuetify v-list-tile": {
+		"prefix": "vListTile",
+		"body": [
+			"v-list-tile",
+			"\t$0"
+		],
+		"description": "v-list-tile Component"
+	},
+	"Vuetify v-list-tile with v-for": {
+		"prefix": "vListTileFor",
+		"body": [
+			"v-list-tile(v-for=\"${item} in ${items}\" :key=\"${item}.${key}\")",
+			"\t$0"
+		],
+		"description": "v-list-tile Component"
+	},
+	"Vuetify v-list-tile-action": {
+		"prefix": "vListTileAction",
+		"body": [
+			"v-list-tile-action"
+		],
+		"description": "v-list-tile-action Functional Components"
+	},
+	"Vuetify v-list-tile-action-text": {
+		"prefix": "vListTileActionText",
+		"body": [
+			"v-list-tile-action-text "
+		],
+		"description": "v-list-tile-action-text Functional Components"
+	},
+	"Vuetify v-list-tile-avatar": {
+		"prefix": "vListTileAvatar",
+		"body": [
+			"v-list-tile-avatar",
+			"\t$0"
+		],
+		"description": "v-list-tile-avatar Component"
+	},
+	"Vuetify v-list-tile-content": {
+		"prefix": "vListTileContent",
+		"body": [
+			"v-list-tile-content",
+			"\t$0"
+		],
+		"description": "v-list-tile-content Functional Components"
+	},
+	"Vuetify v-list-tile-sub-title": {
+		"prefix": "vListTileSubTitle",
+		"body": [
+			"v-list-tile-sub-title",
+			"\t$0"
+		],
+		"description": "v-list-tile-sub-title Functional Components"
+	},
+	"Vuetify v-list-tile-title": {
+		"prefix": "vListTileTitle",
+		"body": [
+			"v-list-tile-title",
+			"\t$0"
+		],
+		"description": "v-list-tile-title Functional Components"
+	},
+	"Vuetify v-menu": {
+		"prefix": "vMenu",
+		"body": [
+			"v-menu",
+			"\t$0"
+		],
+		"description": "v-menu Component"
+	},
+	"Vuetify v-menu-transition": {
+		"prefix": "vMenuTransition",
+		"body": [
+			"v-menu-transition",
+			"\t$0"
+		],
+		"description": "v-menu-transition Transition"
+	},
+	"Vuetify v-messages": {
+		"prefix": "vMessages",
+		"body": [
+			"v-messages",
+			"\t$0"
+		],
+		"description": "v-messages Component"
+	},
+	"Vuetify v-navigation-drawer": {
+		"prefix": "vNavigationDrawer",
+		"body": [
+			"v-navigation-drawer",
+			"\t$0"
+		],
+		"description": "v-navigation-drawer Component"
+	},
+	"Vuetify v-overflow-btn": {
+		"prefix": "vOverflowBtn",
+		"body": [
+			"v-overflow-btn",
+			"\t$0"
+		],
+		"description": "v-overflow-btn Component"
+	},
+	"Vuetify v-pagination": {
+		"prefix": "vPagination",
+		"body": [
+			"v-pagination",
+			"\t$0"
+		],
+		"description": "v-pagination Component"
+	},
+	"Vuetify v-parallax": {
+		"prefix": "vParallax",
+		"body": [
+			"v-parallax",
+			"\t$0"
+		],
+		"description": "v-parallax Component"
+	},
+	"Vuetify v-picker": {
+		"prefix": "vPicker",
+		"body": [
+			"v-picker",
+			"\t$0"
+		],
+		"description": "v-picker Component"
+	},
+	"Vuetify v-progress-circular": {
+		"prefix": "vProgressCircular",
+		"body": [
+			"v-progress-circular",
+			"\t$0"
+		],
+		"description": "v-progress-circular Component"
+	},
+	"Vuetify v-progress-linear": {
+		"prefix": "vProgressLinear",
+		"body": [
+			"v-progress-linear",
+			"\t$0"
+		],
+		"description": "v-progress-linear Component"
+	},
+	"Vuetify v-radio": {
+		"prefix": "vRadio",
+		"body": [
+			"v-radio",
+			"\t$0"
+		],
+		"description": "v-radio Component"
+	},
+	"Vuetify v-radio-group": {
+		"prefix": "vRadioGroup",
+		"body": [
+			"v-radio-group",
+			"\t$0"
+		],
+		"description": "v-radio-group Component"
+	},
+	"Vuetify v-range-slider": {
+		"prefix": "vRangeSlider",
+		"body": [
+			"v-range-slider",
+			"\t$0"
+		],
+		"description": "v-range-slider Component"
+	},
+	"Vuetify v-rating": {
+		"prefix": "vRating",
+		"body": [
+			"v-rating",
+			"\t$0"
+		],
+		"description": "v-rating Component"
+	},
+	"Vuetify v-responsive": {
+		"prefix": "vResponsive",
+		"body": [
+			"v-responsive",
+			"\t$0"
+		],
+		"description": "v-responsive Component"
+	},
+	"Vuetify v-row-expand-transition": {
+		"prefix": "vRowExpandTransition",
+		"body": [
+			"v-row-expand-transition",
+			"\t$0"
+		],
+		"description": "v-row-expand-transition Transition"
+	},
+	"Vuetify v-scale-transition": {
+		"prefix": "vScaleTransition",
+		"body": [
+			"v-scale-transition",
+			"\t$0"
+		],
+		"description": "v-scale-transition Transition"
+	},
+	"Vuetify v-scroll-x-reverse-transition": {
+		"prefix": "vScrollXReverseTransition",
+		"body": [
+			"v-scroll-x-reverse-transition",
+			"\t$0"
+		],
+		"description": "v-scroll-x-reverse-transition Transition"
+	},
+	"Vuetify v-scroll-x-transition": {
+		"prefix": "vScrollXTransition",
+		"body": [
+			"v-scroll-x-transition",
+			"\t$0"
+		],
+		"description": "v-scroll-x-transition Transition"
+	},
+	"Vuetify v-scroll-y-reverse-transition": {
+		"prefix": "vScrollYReverseTransition",
+		"body": [
+			"v-scroll-y-reverse-transition",
+			"\t$0"
+		],
+		"description": "v-scroll-y-reverse-transition Transition"
+	},
+	"Vuetify v-scroll-y-transition": {
+		"prefix": "vScrollYTransition",
+		"body": [
+			"v-scroll-y-transition",
+			"\t$0"
+		],
+		"description": "v-scroll-y-transition Transition"
+	},
+	"Vuetify v-select": {
+		"prefix": "vSelect",
+		"body": [
+			"v-select",
+			"\t$0"
+		],
+		"description": "v-select Component"
+	},
+	"Vuetify v-sheet": {
+		"prefix": "vSheet",
+		"body": [
+			"v-sheet",
+			"\t$0"
+		],
+		"description": "v-sheet Component"
+	},
+	"Vuetify v-slide-x-reverse-transition": {
+		"prefix": "vSlideXReverseTransition",
+		"body": [
+			"v-slide-x-reverse-transition",
+			"\t$0"
+		],
+		"description": "v-slide-x-reverse-transition Transition"
+	},
+	"Vuetify v-slide-x-transition": {
+		"prefix": "vSlideXTransition",
+		"body": [
+			"v-slide-x-transition",
+			"\t$0"
+		],
+		"description": "v-slide-x-transition Transition"
+	},
+	"Vuetify v-slide-y-reverse-transition": {
+		"prefix": "vSlideYReverseTransition",
+		"body": [
+			"v-slide-y-reverse-transition",
+			"\t$0"
+		],
+		"description": "v-slide-y-reverse-transition Transition"
+	},
+	"Vuetify v-slide-y-transition": {
+		"prefix": "vSlideYTransition",
+		"body": [
+			"v-slide-y-transition",
+			"\t$0"
+		],
+		"description": "v-slide-y-transition Transition"
+	},
+	"Vuetify v-slider": {
+		"prefix": "vSlider",
+		"body": [
+			"v-slider",
+			"\t$0"
+		],
+		"description": "v-slider Component"
+	},
+	"Vuetify v-snackbar": {
+		"prefix": "vSnackbar",
+		"body": [
+			"v-snackbar",
+			"\t$0"
+		],
+		"description": "v-snackbar Component"
+	},
+	"Vuetify v-spacer": {
+		"prefix": "vSpacer",
+		"body": [
+			"v-spacer",
+			"$0"
+		],
+		"description": "v-spacer Grid Component"
+	},
+	"Vuetify v-sparkline": {
+		"prefix": "vSparkline",
+		"body": [
+			"v-sparkline",
+			"\t$0"
+		],
+		"description": "v-sparkline Component"
+	},
+	"Vuetify v-speed-dial": {
+		"prefix": "vSpeedDial",
+		"body": [
+			"v-speed-dial",
+			"\t$0"
+		],
+		"description": "v-speed-dial Component"
+	},
+	"Vuetify v-stepper": {
+		"prefix": "vStepper",
+		"body": [
+			"v-stepper",
+			"\t$0"
+		],
+		"description": "v-stepper Component"
+	},
+	"Vuetify v-stepper-content": {
+		"prefix": "vStepperContent",
+		"body": [
+			"v-stepper-content",
+			"\t$0"
+		],
+		"description": "v-stepper-content Component"
+	},
+	"Vuetify v-stepper-header": {
+		"prefix": "vStepperHeader",
+		"body": [
+			"v-stepper-header",
+			"\t$0"
+		],
+		"description": "v-stepper-header Functional Components"
+	},
+	"Vuetify v-stepper-items": {
+		"prefix": "vStepperItems",
+		"body": [
+			"v-stepper-items",
+			"\t$0"
+		],
+		"description": "v-stepper-items Functional Components"
+	},
+	"Vuetify v-stepper-step": {
+		"prefix": "vStepperStep",
+		"body": [
+			"v-stepper-step",
+			"\t$0"
+		],
+		"description": "v-stepper-step Component"
+	},
+	"Vuetify v-subheader": {
+		"prefix": "vSubheader",
+		"body": [
+			"v-subheader "
+		],
+		"description": "v-subheader Component"
+	},
+	"Vuetify v-switch": {
+		"prefix": "vSwitch",
+		"body": [
+			"v-switch",
+			"\t$0"
+		],
+		"description": "v-switch Component"
+	},
+	"Vuetify v-system-bar": {
+		"prefix": "vSystemBar",
+		"body": [
+			"v-system-bar",
+			"\t$0"
+		],
+		"description": "v-system-bar Component"
+	},
+	"Vuetify v-tab": {
+		"prefix": "vTab",
+		"body": [
+			"v-tab",
+			"\t$0"
+		],
+		"description": "v-tab Component"
+	},
+	"Vuetify v-tab-item": {
+		"prefix": "vTabItem",
+		"body": [
+			"v-tab-item",
+			"\t$0"
+		],
+		"description": "v-tab-item Component"
+	},
+	"Vuetify v-tab-reverse-transition": {
+		"prefix": "vTabReverseTransition",
+		"body": [
+			"v-tab-reverse-transition",
+			"\t$0"
+		],
+		"description": "v-tab-reverse-transition Transition"
+	},
+	"Vuetify v-tab-transition": {
+		"prefix": "vTabTransition",
+		"body": [
+			"v-tab-transition",
+			"\t$0"
+		],
+		"description": "v-tab-transition Transition"
+	},
+	"Vuetify v-table-overflow": {
+		"prefix": "vTableOverflow",
+		"body": [
+			"v-table-overflow",
+			"\t$0"
+		],
+		"description": "v-table-overflow Functional Components"
+	},
+	"Vuetify v-tabs": {
+		"prefix": "vTabs",
+		"body": [
+			"v-tabs",
+			"\t$0"
+		],
+		"description": "v-tabs Component"
+	},
+	"Vuetify v-tabs-items": {
+		"prefix": "vTabsItems",
+		"body": [
+			"v-tabs-items",
+			"\t$0"
+		],
+		"description": "v-tabs-items Component"
+	},
+	"Vuetify v-tabs-slider": {
+		"prefix": "vTabsSlider",
+		"body": [
+			"v-tabs-slider",
+			"\t$0"
+		],
+		"description": "v-tabs-slider Component"
+	},
+	"Vuetify v-text-field": {
+		"prefix": "vTextField",
+		"body": [
+			"v-text-field",
+			"\t$0"
+		],
+		"description": "v-text-field Component"
+	},
+	"Vuetify v-textarea": {
+		"prefix": "vTextarea",
+		"body": [
+			"v-textarea",
+			"\t$0"
+		],
+		"description": "v-textarea Component"
+	},
+	"Vuetify v-time-picker": {
+		"prefix": "vTimePicker",
+		"body": [
+			"v-time-picker",
+			"\t$0"
+		],
+		"description": "v-time-picker Component"
+	},
+	"Vuetify v-time-picker-clock": {
+		"prefix": "vTimePickerClock",
+		"body": [
+			"v-time-picker-clock",
+			"\t$0"
+		],
+		"description": "v-time-picker-clock Component"
+	},
+	"Vuetify v-time-picker-title": {
+		"prefix": "vTimePickerTitle",
+		"body": [
+			"v-time-picker-title",
+			"\t$0"
+		],
+		"description": "v-time-picker-title Component"
+	},
+	"Vuetify v-timeline": {
+		"prefix": "vTimeline",
+		"body": [
+			"v-timeline",
+			"\t$0"
+		],
+		"description": "v-timeline Component"
+	},
+	"Vuetify v-timeline-item": {
+		"prefix": "vTimelineItem",
+		"body": [
+			"v-timeline-item",
+			"\t$0"
+		],
+		"description": "v-timeline-item Component"
+	},
+	"Vuetify v-toolbar": {
+		"prefix": "vToolbar",
+		"body": [
+			"v-toolbar",
+			"\t$0"
+		],
+		"description": "v-toolbar Component"
+	},
+	"Vuetify v-toolbar-items": {
+		"prefix": "vToolbarItems",
+		"body": [
+			"v-toolbar-items",
+			"\t$0"
+		],
+		"description": "v-toolbar-items Functional Components"
+	},
+	"Vuetify v-toolbar-side-icon": {
+		"prefix": "vToolbarSideIcon",
+		"body": [
+			"v-toolbar-side-icon",
+			"\t$0"
+		],
+		"description": "v-toolbar-side-icon Functional Components"
+	},
+	"Vuetify v-toolbar-title": {
+		"prefix": "vToolbarTitle",
+		"body": [
+			"v-toolbar-title",
+			"\t$0"
+		],
+		"description": "v-toolbar-title Functional Components"
+	},
+	"Vuetify v-tooltip": {
+		"prefix": "vTooltip",
+		"body": [
+			"v-tooltip",
+			"\t$0"
+		],
+		"description": "v-tooltip Component"
+	},
+	"Vuetify v-treeview": {
+		"prefix": "vTreeview",
+		"body": [
+			"v-treeview",
+			"\t$0"
+		],
+		"description": "v-treeview Component"
+	},
+	"Vuetify v-treeview-node": {
+		"prefix": "vTreeviewNode",
+		"body": [
+			"v-treeview-node",
+			"\t$0"
+		],
+		"description": "v-treeview-node Component"
+	},
+	"Vuetify v-window": {
+		"prefix": "vWindow",
+		"body": [
+			"v-window",
+			"\t$0"
+		],
+		"description": "v-window Component"
+	},
+	"Vuetify v-window-item": {
+		"prefix": "vWindowItem",
+		"body": [
+			"v-window-item",
+			"\t$0"
+		],
+		"description": "v-window-item Component"
+	}
+}
