@@ -10,7 +10,7 @@ VSCode Snippet for the Vuetify framework using Pug. Type faster with:
 ## Features
 
 - Created from Vuetify 1.5.14 and Vue 2.
-- More than 140 snippets.
+- More than 260 snippets.
 - All components of Vuetify.
 
 ## Usage
@@ -28,6 +28,7 @@ The code must be inside a template lang="pug".
     //- code start
 </template>
 ```
+[VSCode Extesion Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) installed.
 
 ## Known Issues
 FThe snippets will be shown for pug code even though it is not a `.vue` file.
@@ -47,7 +48,7 @@ Versions, additions and fixes.
 From:
 
 * New releases of Vuetify.
-* [Issues](/issues)
+* [Issues](https://github.com/lucaslpsan/vuetify-pug-snippet/issues)
 
 ## For more information
 

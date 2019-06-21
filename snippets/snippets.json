@@ -87,10 +87,26 @@
 		],
 		"description": "v-breadcrumbs-divider Functional Components"
 	},
+	"Vuetify v-breadcrumbs-divider v-for": {
+		"prefix": "vBreadcrumbsDividerFor",
+		"body": [
+			"v-breadcrumbs-divider(v-for=\"${item} in ${items}\" :key=\"${item}.${key}\")",
+			"\t$0"
+		],
+		"description": "v-breadcrumbs-divider Functional Components"
+	},
 	"Vuetify v-breadcrumbs-item": {
 		"prefix": "vBreadcrumbsItem",
 		"body": [
 			"v-breadcrumbs-item",
+			"\t$0"
+		],
+		"description": "v-breadcrumbs-item Component"
+	},
+	"Vuetify v-breadcrumbs-item with v-for": {
+		"prefix": "vBreadcrumbsItemFor",
+		"body": [
+			"v-breadcrumbs-item(v-for=\"${item} in ${items}\" :key=\"${item}.${key}\")",
 			"\t$0"
 		],
 		"description": "v-breadcrumbs-item Component"
@@ -472,7 +488,7 @@
 	"Vuetify v-img": {
 		"prefix": "vImg",
 		"body": [
-			"v-img",
+			"v-img(src=\"${sourcefte}\")",
 			"\t$0"
 		],
 		"description": "v-img Component"
@@ -694,7 +710,7 @@
 	"Vuetify v-radio": {
 		"prefix": "vRadio",
 		"body": [
-			"v-radio",
+			"v-radio(label=\"${name}\" value=\"${value}\")",
 			"\t$0"
 		],
 		"description": "v-radio Component"
@@ -1121,5 +1137,681 @@
 			"\t$0"
 		],
 		"description": "v-window-item Component"
+	},
+	"Vue @click": {
+		"prefix": "@click",
+		"body": [
+			"@click=\"${doThis}\""
+		],
+		"description": "Directive @click"
+	},
+	"Vue @[event]": {
+		"prefix": "@[event]",
+		"body": [
+			"@[event]=\"${doThis}\""
+		],
+		"description": "Directive @[event]"
+	},
+	"Vue v-for": {
+		"prefix": "vFor",
+		"body": [
+			"v-for=\"${item} in ${items}\" :key=\"${item}.${key}\""
+		],
+		"description": "Directive v-for"
+	},
+	"Vue v-for with Index": {
+		"prefix": "vForIndex",
+		"body": [
+			"v-for=\"(${item}, ${index}) in ${items}\" :key=\"${item}.${key}\""
+		],
+		"description": "Directive v-for with Index"
+	},
+	"Vue :key": {
+		"prefix": ":key",
+		"body": [
+			":key=\"${key}\""
+		],
+		"description": "Special attribute :key"
+	},
+	"Vue v-if": {
+		"prefix": "vIf",
+		"body": [
+			"v-if=\"${condition}\""
+		],
+		"description": "Directive v-if"
+	},
+	"Vue v-else": {
+		"prefix": "vElse",
+		"body": [
+			"v-else$0"
+		],
+		"description": "Directive v-else"
+	},
+	"Vue v-if-else": {
+		"prefix": "vIf",
+		"body": [
+			"v-if-else=\"${condition}\""
+		],
+		"description": "Directive v-if-else"
+	},
+	"Vue v-model": {
+		"prefix": "vModel",
+		"body": [
+			"v-model=\"${model}\""
+		],
+		"description": "Directive v-model"
+	},
+	"Vue v-slot": {
+		"prefix": "vSlot",
+		"body": [
+			"v-slot:\"${activator}\""
+		],
+		"description": "Directive v-slot"
+	},
+	"Vue v-once": {
+		"prefix": "vOnce",
+		"body": [
+			"v-once"
+		],
+		"description": "Directive v-once"
+	},
+	"Vue :ref": {
+		"prefix": ":ref",
+		"body": [
+			":ref=\"${refs}\""
+		],
+		"description": "Special attribute :ref"
+	},
+	"Vue transition": {
+		"prefix": "transition",
+		"body": [
+			"transition $0"
+		],
+		"description": "Integrated Component transition"
+	},
+	"Vue name": {
+		"prefix": "name",
+		"body": [
+			"name=\"${name}\""
+		],
+		"description": "Option name"
+	},
+	"Vuetify class": {
+		"prefix": "class",
+		"body": [
+			"class=\"${class}\""
+		],
+		"description": "Option class"
+	},
+	"Vue id": {
+		"prefix": "id",
+		"body": [
+			"id=\"${id}\""
+		],
+		"description": "Option id"
+	},
+	"Vue style": {
+		"prefix": "style",
+		"body": [
+			"style=\"${style}\""
+		],
+		"description": "Option style"
+	},
+	"Vuetify Resize directive": {
+		"prefix": "vResize",
+		"body": [
+			"v-resize=\"${onResize}\""
+		],
+		"description": "v-resize directive"
+	},
+	"Vuetify Ripple directive": {
+		"prefix": "vRipple",
+		"body": [
+			"v-ripple"
+		],
+		"description": "v-resize directive"
+	},
+	"Vuetify Ripple directive custom": {
+		"prefix": "vRipple",
+		"body": [
+			"v-ripple=\"{ ${class}: ${red--text} }\""
+		],
+		"description": "v-resize directive"
+	},
+	"Vuetify Touch directive": {
+		"prefix": "vTouch",
+		"body": [
+			"v-touch=\"{left: () => ${swipe}('Left'),",
+			"\t\t\t\t{right: () => ${swipe}('Right'),",
+			"\t\t\t\t{up: () => ${swipe}('Up'),",
+			"\t\t\t\t{down: () => ${swipe}('Down')",
+			"\t\t\t\t}\""
+		],
+		"description": "Touch Support Vuetify"
+	},
+	"Vuetify align-baseline": {
+		"prefix": "alignBaseline",
+		"body": "align-baseline ",
+		"description": "Vuetify prop align-baseline"
+	},
+	"Vuetify align-center": {
+		"prefix": "alignCenter",
+		"body": "align-center ",
+		"description": "Vuetify prop align-center"
+	},
+	"Vuetify align-content-center": {
+		"prefix": "alignContentCenter",
+		"body": "align-content-center ",
+		"description": "Vuetify prop align-content-center"
+	},
+	"Vuetify align-content-end": {
+		"prefix": "alignContentEnd",
+		"body": "align-content-end ",
+		"description": "Vuetify prop align-content-end"
+	},
+	"Vuetify align-content-space-around": {
+		"prefix": "alignContentSpaceAround",
+		"body": "align-content-space-around ",
+		"description": "Vuetify prop align-content-space-around"
+	},
+	"Vuetify align-content-space-between": {
+		"prefix": "alignContentSpaceBetween",
+		"body": "align-content-space-between ",
+		"description": "Vuetify prop align-content-space-between"
+	},
+	"Vuetify align-content-start": {
+		"prefix": "alignContentStart",
+		"body": "align-content-start ",
+		"description": "Vuetify prop align-content-start"
+	},
+	"Vuetify align-end": {
+		"prefix": "alignEnd",
+		"body": "align-end ",
+		"description": "Vuetify prop align-end"
+	},
+	"Vuetify align-start": {
+		"prefix": "alignStart",
+		"body": "align-start ",
+		"description": "Vuetify prop align-start"
+	},
+	"Vuetify display": {
+		"prefix": "display",
+		"body": "d-${1|flex,inline-flex,block,inline-block,inline,none|} $0",
+		"description": "Vuetify Helper Class display"
+	},
+	"Vuetify fill-height": {
+		"prefix": "fillHeight",
+		"body": "fill-height ",
+		"description": "Vuetify prop fill-height"
+	},
+	"Vuetify fluid": {
+		"prefix": "fluid",
+		"body": "fluid ",
+		"description": "Vuetify prop fluid"
+	},
+	"Vuetify grid-list-{xs through xl}": {
+		"prefix": "gridList",
+		"body": "grid-list-${1|xs,sm,md,lg,xl|} $0",
+		"description": "Vuetify prop grid-list-{xs through xl}"
+	},
+	"Vuetify justify-center": {
+		"prefix": "justifyCenter",
+		"body": "justify-center ",
+		"description": "Vuetify prop justify-center"
+	},
+	"Vuetify justify-end": {
+		"prefix": "justifyEnd",
+		"body": "justify-end ",
+		"description": "Vuetify prop justify-end"
+	},
+	"Vuetify justify-space-around": {
+		"prefix": "justifySpaceAround",
+		"body": "justify-space-around ",
+		"description": "Vuetify prop justify-space-around"
+	},
+	"Vuetify justify-space-between": {
+		"prefix": "justifySpaceBetween",
+		"body": "justify-space-between ",
+		"description": "Vuetify prop justify-space-between"
+	},
+	"Vuetify justify-start": {
+		"prefix": "justifyStart",
+		"body": "justify-start ",
+		"description": "Vuetify prop justify-start"
+	},
+	"Vuetify tag": {
+		"prefix": "tag",
+		"body": "tag=\"${div}\"",
+		"description": "Vuetify prop tag"
+	},
+	"Vuetify column":{
+		"prefix": "column",
+		"body": "column ",
+		"description": "Vuetify prop column"
+	},
+	"Vuetify reverse":{
+		"prefix": "reverse",
+		"body": "reverse ",
+		"description": "Vuetify prop reverse"
+	},
+	"Vuetify row":{
+		"prefix": "row",
+		"body": "row ",
+		"description": "Vuetify prop row"
+	},
+	"Vuetify wrap":{
+		"prefix": "wrap",
+		"body": "wrap ",
+		"description": "Vuetify prop wrap"
+	},
+	"Vuetify xs":{
+		"prefix": "xs",
+		"body": "xs${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
+		"description": "Vuetify prop xs"
+	},
+	"Vuetify sm":{
+		"prefix": "sm",
+		"body": "sm${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
+		"description": "Vuetify prop sm"
+	},
+	"Vuetify md":{
+		"prefix": "md",
+		"body": "md${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
+		"description": "Vuetify prop md"
+	},
+	"Vuetify lg":{
+		"prefix": "lg",
+		"body": "lg${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
+		"description": "Vuetify prop lg"
+	},
+	"Vuetify xl":{
+		"prefix": "xl",
+		"body": "xl${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
+		"description": "Vuetify prop xl"
+	},
+	"Vuetify offset-xs":{
+		"prefix": "offsetXs",
+		"body": "offset-xs${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
+		"description": "Vuetify prop offset-xs"
+	},
+	"Vuetify offset-sm":{
+		"prefix": "offsetSm",
+		"body": "offset-sm${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
+		"description": "Vuetify prop offset-sm"
+	},
+	"Vuetify offset-md":{
+		"prefix": "offsetMd",
+		"body": "offset-md${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
+		"description": "Vuetify prop offset-md"
+	},
+	"Vuetify offset-lg":{
+		"prefix": "offsetLg",
+		"body": "offset-lg${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
+		"description": "Vuetify prop offset-lg"
+	},
+	"Vuetify offset-xl":{
+		"prefix": "offsetXl",
+		"body": "offset-xl${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
+		"description": "Vuetify prop offset-xl"
+	},
+	"Vuetify order-xs":{
+		"prefix": "orderXs",
+		"body": "order-xs${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
+		"description": "Vuetify prop order-xs"
+	},
+	"Vuetify order-sm":{
+		"prefix": "orderSm",
+		"body": "order-sm${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
+		"description": "Vuetify prop order-sm"
+	},
+	"Vuetify order-md":{
+		"prefix": "orderMd",
+		"body": "order-md${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
+		"description": "Vuetify prop order-md"
+	},
+	"Vuetify order-lg":{
+		"prefix": "orderLg",
+		"body": "order-lg${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
+		"description": "Vuetify prop order-lg"
+	},
+	"Vuetify order-xl":{
+		"prefix": "orderXl",
+		"body": "order-xl${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
+		"description": "Vuetify prop order-xl"
+	},
+	"Vuetify align-self":{
+		"prefix": "alignSelf",
+		"body": "align-self: ${1|baseline,center,end,start|} ",
+		"description": "Vuetify prop align-self:"
+	},
+	"Vuetify flex-grow":{
+		"prefix": "flexGrow",
+		"body": "flex-grow:${1} $0",
+		"description": "Vuetify prop flex-grow"
+	},
+	"Vuetify flex-shrink":{
+		"prefix": "flexShrink",
+		"body": "flex-shrink:${1} $0",
+		"description": "Vuetify prop flex-shrink:"
+	},
+	"Vuetify grow":{
+		"prefix": "grow",
+		"body": "grow $0",
+		"description": "Vuetify prop grow"
+	},
+	"Vuetify shrink":{
+		"prefix": "shrink",
+		"body": "shrink $0",
+		"description": "Vuetify prop shrink"
+	},
+	"Vuetify dark":{
+		"prefix": "dark",
+		"body": "dark $0",
+		"description": "Vuetify prop dark"
+	},
+	"Vuetify flat":{
+		"prefix": "flat",
+		"body": "flat $0",
+		"description": "Vuetify prop flat"
+	},
+	"Vuetify Overflow":{
+		"prefix": "overflow",
+		"body": "overflow-${1|hidden,y-hidden,x-hidden|} ",
+		"description": "Vuetify prop overflow"
+	},
+	"Vuetify Spacing Margin":{
+		"prefix": "m",
+		"body": "m${1|t,b,l,r,x,y,a|}-${2|auto,0,1,2,3,4,5|} $0",
+		"description": "Vuetify Helper Class Spacing Margin"
+	},
+	"Vuetify Spacing Padding":{
+		"prefix": "p",
+		"body": "p${1|t,b,l,r,x,y,a|}-${2|auto,0,1,2,3,4,5|} $0",
+		"description": "Vuetify Helper Class Spacing Padding"
+	},
+	"Vuetify app":{
+		"prefix": "app",
+		"body": "app $0",
+		"description": "Vuetify app"
+	},
+	"Vuetify :aspect-ratio":{
+		"prefix": ":aspectRatio",
+		"body": ":aspect-ratio=\"${16/9}\" $0",
+		"description": "Vuetify v-responsive prop :aspect-ratio"
+	},
+	"Vuetify height":{
+		"prefix": "height",
+		"body": "height=\"${height}\" $0",
+		"description": "Vuetify v-responsive prop height"
+	},
+	"Vuetify max-height":{
+		"prefix": "maxHeight",
+		"body": "max-height=\"${value}\" $0",
+		"description": "Vuetify v-responsive prop max-height"
+	},
+	"Vuetify max-width":{
+		"prefix": "maxWidth",
+		"body": "max-width=\"${auto}\" $0",
+		"description": "Vuetify v-responsive prop max-width"
+	},
+	"Vuetify min-height":{
+		"prefix": "minHeight",
+		"body": "min-height=\"${value}\" $0",
+		"description": "Vuetify v-responsive prop min-height"
+	},
+	"Vuetify min-width":{
+		"prefix": "minWidth",
+		"body": "min-width=\"${value}\" $0",
+		"description": "Vuetify v-responsive prop min-width"
+	},
+	"Vuetify width":{
+		"prefix": "width",
+		"body": "width=\"${value}\" $0",
+		"description": "Vuetify v-responsive prop width"
+	},
+	"Vuetify absolute":{
+		"prefix": "absolute",
+		"body": "absolute $0",
+		"description": "Vuetify Toolbar props absolute"
+	},
+	"Vuetify card":{
+		"prefix": "card",
+		"body": "card $0",
+		"description": "Vuetify Toolbar props card"
+	},
+	"Vuetify clipped-left":{
+		"prefix": "clippedLeft",
+		"body": "clipped-left $0",
+		"description": "Vuetify Toolbar props clipped-left"
+	},
+	"Vuetify clipped-right":{
+		"prefix": "clippedRight",
+		"body": "clipped-right $0",
+		"description": "Vuetify Toolbar props clipped-right"
+	},
+	"Vuetify dense":{
+		"prefix": "dense",
+		"body": "dense $0",
+		"description": "Vuetify Toolbar props dense"
+	},
+	"Vuetify extended":{
+		"prefix": "extended",
+		"body": "extended $0",
+		"description": "Vuetify Toolbar props extended"
+	},
+	"Vuetify color":{
+		"prefix": "color",
+		"body": "color=\"${undefined}\" $0",
+		"description": "Vuetify Toolbar props color"
+	},
+	"Vuetify extension-height":{
+		"prefix": "extensionHeight",
+		"body": "extension-height=\"${undefined}\" $0",
+		"description": "Vuetify Toolbar props extension-height"
+	},
+	"Vuetify fixed":{
+		"prefix": "fixed",
+		"body": "fixed $0",
+		"description": "Vuetify Toolbar props fixed"
+	},
+	"Vuetify floating":{
+		"prefix": "floating",
+		"body": "floating $0",
+		"description": "Vuetify Toolbar props floating"
+	},
+	"Vuetify inverted-scroll":{
+		"prefix": "invertedScroll",
+		"body": "inverted-scroll=\"${undefined}\" $0",
+		"description": "Vuetify Toolbar props inverted-scroll"
+	},
+	"Vuetify light":{
+		"prefix": "light",
+		"body": "light $0",
+		"description": "Vuetify Toolbar props light"
+	},
+	"Vuetify manual-scroll":{
+		"prefix": "manualScroll",
+		"body": "manual-scroll $0",
+		"description": "Vuetify Toolbar props manual-scroll"
+	},
+	"Vuetify prominent":{
+		"prefix": "prominent",
+		"body": "prominent $0",
+		"description": "Vuetify Toolbar props prominent"
+	},
+	"Vuetify scroll-off-screen":{
+		"prefix": "scrollOffScreen",
+		"body": "scroll-off-screen $0",
+		"description": "Vuetify Toolbar props scroll-off-screen"
+	},
+	"Vuetify scroll-target":{
+		"prefix": "scrollTarget",
+		"body": "scroll-target=\"${undefined}\" $0",
+		"description": "Vuetify Toolbar props scroll-target"
+	},
+	"Vuetify scroll-threshold":{
+		"prefix": "scrollThreshold",
+		"body": "scroll-threshold=\"${300}\" $0",
+		"description": "Vuetify Toolbar props scroll-threshold"
+	},
+	"Vuetify scroll-toolbar-off-screen":{
+		"prefix": "scrollToolbarOffScreen",
+		"body": "scroll-toolbar-off-screen $0",
+		"description": "Vuetify Toolbar props scroll-toolbar-off-screen"
+	},
+	"Vuetify tabs":{
+		"prefix": "tabs",
+		"body": "tabs $0",
+		"description": "Vuetify Toolbar props tabs"
+	},
+	"Vuetify lights-out":{
+		"prefix": "lightsOut",
+		"body": "lights-out $0",
+		"description": "Vuetify Toolbar props lights-out"
+	},
+	"Vuetify status":{
+		"prefix": "status",
+		"body": "status $0",
+		"description": "Vuetify Toolbar props status"
+	},
+	"Vuetify window":{
+		"prefix": "window",
+		"body": "window $0",
+		"description": "Vuetify Toolbar props window"
+	},
+	"Vuetify dismissible":{
+		"prefix": "dismissible",
+		"body": "dismissible $0",
+		"description": "Vuetify Alert props dismissible"
+	},
+	"Vuetify icon":{
+		"prefix": "icon",
+		"body": "icon=\"${undefined}\" $0",
+		"description": "Vuetify Alert props icon"
+	},
+	"Vuetify mode":{
+		"prefix": "mode",
+		"body": "mode=\"${undefined}\" $0",
+		"description": "Vuetify Alert props mode"
+	},
+	"Vuetify origin":{
+		"prefix": "origin",
+		"body": "origin=\"${undefined}\" $0",
+		"description": "Vuetify Alert props origin"
+	},
+	"Vuetify outline":{
+		"prefix": "outline",
+		"body": "outline $0",
+		"description": "Vuetify Alert props outline"
+	},
+	"Vuetify transition":{
+		"prefix": "transition",
+		"body": "transition=\"${undefined}\" $0",
+		"description": "Vuetify Alert props transition"
+	},
+	"Vuetify value":{
+		"prefix": "value",
+		"body": "value=\"${undefined}\" $0",
+		"description": "Vuetify Alert props value"
+	},
+	"Vuetify type":{
+		"prefix": "type",
+		"body": "type=\"${1|success,info,warning,error|}\" $0",
+		"description": "Vuetify Alert props type"
+	},
+	"Vuetify input":{
+		"prefix": "input",
+		"body": "input=\"${true}\" $0",
+		"description": "Vuetify Alert event input"
+	},
+	"Vuetify size":{
+		"prefix": "size",
+		"body": "size=\"${48}\" $0",
+		"description": "Vuetify Avatar props size"
+	},
+	"Vuetify tile":{
+		"prefix": "tile",
+		"body": "tile $0",
+		"description": "Vuetify Avatar props tile"
+	},
+	"Vuetify bottom":{
+		"prefix": "bottom",
+		"body": "bottom $0",
+		"description": "Vuetify Badge props bottom"
+	},
+	"Vuetify left":{
+		"prefix": "left",
+		"body": "left $0",
+		"description": "Vuetify Badge props left"
+	},
+	"Vuetify overlap":{
+		"prefix": "overlap",
+		"body": "overlap $0",
+		"description": "Vuetify Badge props overlap"
+	},
+	"Vuetify active.sync":{
+		"prefix": "activeSync",
+		"body": ":active.sync=\"${undefined}\" $0",
+		"description": "Vuetify Bottom nav props active.sync"
+	},
+	"Vuetify mandatory":{
+		"prefix": "mandatory",
+		"body": "mandatory $0",
+		"description": "Vuetify Bottom nav props mandatory"
+	},
+	"Vuetify shift":{
+		"prefix": "shift",
+		"body": "shift $0",
+		"description": "Vuetify Bottom nav props shift"
+	},
+	"Vuetify update:active":{
+		"prefix": "updateActive",
+		"body": ":update:active=\"${undefined}\" $0",
+		"description": "Vuetify Bottom nav event update:active"
+	},
+	"Vuetify disabled":{
+		"prefix": "disabled",
+		"body": "disabled $0",
+		"description": "Vuetify Bottom sheet props disabled"
+	},
+	"Vuetify full-width":{
+		"prefix": "fullWidth",
+		"body": "full-width $0",
+		"description": "Vuetify Bottom sheet props full-width"
+	},
+	"Vuetify hide-overlay":{
+		"prefix": "hideOverlay",
+		"body": "hide-overlay $0",
+		"description": "Vuetify Bottom sheet props hide-overlay"
+	},
+	"Vuetify inset":{
+		"prefix": "inset",
+		"body": "inset $0",
+		"description": "Vuetify Bottom sheet props inset"
+	},
+	"Vuetify lazy":{
+		"prefix": "lazy",
+		"body": "lazy $0",
+		"description": "Vuetify Bottom sheet props lazy"
+	},
+	"Vuetify persistent":{
+		"prefix": "persistent",
+		"body": "persistent $0",
+		"description": "Vuetify Bottom sheet props persistent"
+	},
+	"Vuetify divider":{
+		"prefix": "divider",
+		"body": "divider=\"$1/\" $0",
+		"description": "Vuetify Breadcrumbs props divider"
+	},
+	"Vuetify items":{
+		"prefix": "items",
+		"body": "items=\"[$1]\" $0",
+		"description": "Vuetify Breadcrumbs props items"
+	},
+	"Vuetify large":{
+		"prefix": "large",
+		"body": "large $0",
+		"description": "Vuetify Breadcrumbs props large"
 	}
 }

@@ -1,11 +1,13 @@
 {
     "name": "vuetify-pug-snippet",
-    "displayName": "vuetify-pug-snippet",
+    "displayName": "Vuetify Pug snippet",
     "description": "Snippet for the Vuetify framework using Pug. Type faster with Auto Completion and Identation.",
     "author": "Lucaslpsan",
-    "version": "0.1.0",
+    "publisher": "lucaslpsan",
+    "version": "0.2.0",
     "license": "MIT",
     "preview": true,
+    "icon": "assets/icon.png",
     "engines": {
         "vscode": "^1.32.0"
     },
