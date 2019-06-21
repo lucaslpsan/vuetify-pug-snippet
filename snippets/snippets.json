@@ -1248,7 +1248,7 @@
 		"body": [
 			"id=\"${id}\""
 		],
-		"description": "Option id"
+		"description": "Sets the DOM id on the component"
 	},
 	"Vue style": {
 		"prefix": "style",
@@ -1272,11 +1272,11 @@
 		"description": "v-resize directive"
 	},
 	"Vuetify Ripple directive custom": {
-		"prefix": "vRipple",
+		"prefix": "ripple",
 		"body": [
-			"v-ripple=\"{ ${class}: ${red--text} }\""
+			"ripple=\"{ ${1:class}: ${2:red--text} }\""
 		],
-		"description": "v-resize directive"
+		"description": "Applies the v-ripple directive"
 	},
 	"Vuetify Touch directive": {
 		"prefix": "vTouch",
@@ -1292,227 +1292,217 @@
 	"Vuetify align-baseline": {
 		"prefix": "alignBaseline",
 		"body": "align-baseline ",
-		"description": "Vuetify prop align-baseline"
+		"description": "Align items to the baseline."
 	},
 	"Vuetify align-center": {
 		"prefix": "alignCenter",
 		"body": "align-center ",
-		"description": "Vuetify prop align-center"
+		"description": "Align items to the center."
 	},
 	"Vuetify align-content-center": {
 		"prefix": "alignContentCenter",
 		"body": "align-content-center ",
-		"description": "Vuetify prop align-content-center"
+		"description": "Align content to the center."
 	},
 	"Vuetify align-content-end": {
 		"prefix": "alignContentEnd",
 		"body": "align-content-end ",
-		"description": "Vuetify prop align-content-end"
+		"description": "Align content to the end."
 	},
 	"Vuetify align-content-space-around": {
 		"prefix": "alignContentSpaceAround",
 		"body": "align-content-space-around ",
-		"description": "Vuetify prop align-content-space-around"
+		"description": "Align content to the space around."
 	},
 	"Vuetify align-content-space-between": {
 		"prefix": "alignContentSpaceBetween",
 		"body": "align-content-space-between ",
-		"description": "Vuetify prop align-content-space-between"
+		"description": "Align content to the space between."
 	},
 	"Vuetify align-content-start": {
 		"prefix": "alignContentStart",
 		"body": "align-content-start ",
-		"description": "Vuetify prop align-content-start"
+		"description": "Align content to the start."
 	},
 	"Vuetify align-end": {
 		"prefix": "alignEnd",
 		"body": "align-end ",
-		"description": "Vuetify prop align-end"
+		"description": "Align items to the end."
 	},
 	"Vuetify align-start": {
 		"prefix": "alignStart",
 		"body": "align-start ",
-		"description": "Vuetify prop align-start"
+		"description": "Align items to the start."
 	},
 	"Vuetify display": {
 		"prefix": "display",
 		"body": "d-${1|flex,inline-flex,block,inline-block,inline,none|} $0",
-		"description": "Vuetify Helper Class display"
+		"description": "Specify to display an element as flex/inline-flex/block etc. Syntax is d-{type}. For example d-flex."
 	},
 	"Vuetify fill-height": {
 		"prefix": "fillHeight",
 		"body": "fill-height ",
-		"description": "Vuetify prop fill-height"
+		"description": "Make sure that col element height is filled with parent and child. Important for Safari/Firefox if children is column element."
 	},
 	"Vuetify fluid": {
 		"prefix": "fluid",
 		"body": "fluid ",
-		"description": "Vuetify prop fluid"
+		"description": "Removes viewport size breakpointsv"
 	},
 	"Vuetify grid-list-{xs through xl}": {
 		"prefix": "gridList",
 		"body": "grid-list-${1|xs,sm,md,lg,xl|} $0",
-		"description": "Vuetify prop grid-list-{xs through xl}"
+		"description": "Sets the gutter between grid list items ranging from 2px to 24px"
 	},
 	"Vuetify justify-center": {
 		"prefix": "justifyCenter",
 		"body": "justify-center ",
-		"description": "Vuetify prop justify-center"
+		"description": "Justify content to the center."
 	},
 	"Vuetify justify-end": {
 		"prefix": "justifyEnd",
 		"body": "justify-end ",
-		"description": "Vuetify prop justify-end"
+		"description": "Justify content to the end."
 	},
 	"Vuetify justify-space-around": {
 		"prefix": "justifySpaceAround",
 		"body": "justify-space-around ",
-		"description": "Vuetify prop justify-space-around"
+		"description": "Justify content to the space around."
 	},
 	"Vuetify justify-space-between": {
 		"prefix": "justifySpaceBetween",
 		"body": "justify-space-between ",
-		"description": "Vuetify prop justify-space-between"
+		"description": "Justify content to the space between."
 	},
 	"Vuetify justify-start": {
 		"prefix": "justifyStart",
 		"body": "justify-start ",
-		"description": "Vuetify prop justify-start"
+		"description": "Justify content to the start."
 	},
 	"Vuetify tag": {
 		"prefix": "tag",
-		"body": "tag=\"${div}\"",
-		"description": "Vuetify prop tag"
+		"body": "tag=\"${button}\"",
+		"description": "Specify a custom tag to use on the component"
 	},
 	"Vuetify column":{
 		"prefix": "column",
 		"body": "column ",
-		"description": "Vuetify prop column"
+		"description": "Sets flex direction to column"
 	},
 	"Vuetify reverse":{
 		"prefix": "reverse",
 		"body": "reverse ",
-		"description": "Vuetify prop reverse"
+		"description": "Sets flex direction to row"
 	},
 	"Vuetify row":{
 		"prefix": "row",
-		"body": "row ",
-		"description": "Vuetify prop row"
+		"body": "row $0",
+		"description": "Sets flex direction to row"
 	},
 	"Vuetify wrap":{
 		"prefix": "wrap",
 		"body": "wrap ",
-		"description": "Vuetify prop wrap"
+		"description": "Allows children to wrap within the container if the elements use more than 100%."
 	},
 	"Vuetify xs":{
 		"prefix": "xs",
 		"body": "xs${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
-		"description": "Vuetify prop xs"
+		"description": "Extra Small"
 	},
 	"Vuetify sm":{
 		"prefix": "sm",
 		"body": "sm${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
-		"description": "Vuetify prop sm"
+		"description": "Small"
 	},
 	"Vuetify md":{
 		"prefix": "md",
 		"body": "md${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
-		"description": "Vuetify prop md"
+		"description": "Medium"
 	},
 	"Vuetify lg":{
 		"prefix": "lg",
 		"body": "lg${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
-		"description": "Vuetify prop lg"
+		"description": "Large"
 	},
 	"Vuetify xl":{
 		"prefix": "xl",
 		"body": "xl${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
-		"description": "Vuetify prop xl"
+		"description": "Extra Large"
 	},
 	"Vuetify offset-xs":{
 		"prefix": "offsetXs",
 		"body": "offset-xs${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
-		"description": "Vuetify prop offset-xs"
+		"description": "Offset Extra Small"
 	},
 	"Vuetify offset-sm":{
 		"prefix": "offsetSm",
 		"body": "offset-sm${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
-		"description": "Vuetify prop offset-sm"
+		"description": "Offset Small"
 	},
 	"Vuetify offset-md":{
 		"prefix": "offsetMd",
 		"body": "offset-md${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
-		"description": "Vuetify prop offset-md"
+		"description": "Offset Medium"
 	},
 	"Vuetify offset-lg":{
 		"prefix": "offsetLg",
 		"body": "offset-lg${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
-		"description": "Vuetify prop offset-lg"
+		"description": "Offset Large"
 	},
 	"Vuetify offset-xl":{
 		"prefix": "offsetXl",
 		"body": "offset-xl${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
-		"description": "Vuetify prop offset-xl"
+		"description": "Offset Extra Large"
 	},
 	"Vuetify order-xs":{
 		"prefix": "orderXs",
 		"body": "order-xs${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
-		"description": "Vuetify prop order-xs"
+		"description": "Order Extra Small"
 	},
 	"Vuetify order-sm":{
 		"prefix": "orderSm",
 		"body": "order-sm${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
-		"description": "Vuetify prop order-sm"
+		"description": "Order Small"
 	},
 	"Vuetify order-md":{
 		"prefix": "orderMd",
 		"body": "order-md${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
-		"description": "Vuetify prop order-md"
+		"description": "Order Medium"
 	},
 	"Vuetify order-lg":{
 		"prefix": "orderLg",
 		"body": "order-lg${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
-		"description": "Vuetify prop order-lg"
+		"description": "Order Large"
 	},
 	"Vuetify order-xl":{
 		"prefix": "orderXl",
 		"body": "order-xl${1|1,2,3,4,5,6,7,8,9,10,11,12|} $0",
-		"description": "Vuetify prop order-xl"
+		"description": "Order Extra Large"
 	},
 	"Vuetify align-self":{
 		"prefix": "alignSelf",
-		"body": "align-self: ${1|baseline,center,end,start|} ",
-		"description": "Vuetify prop align-self:"
-	},
-	"Vuetify flex-grow":{
-		"prefix": "flexGrow",
-		"body": "flex-grow:${1} $0",
-		"description": "Vuetify prop flex-grow"
-	},
-	"Vuetify flex-shrink":{
-		"prefix": "flexShrink",
-		"body": "flex-shrink:${1} $0",
-		"description": "Vuetify prop flex-shrink:"
+		"body": "align-self-${1|baseline,center,end,start|} ",
+		"description": "Apply align-self"
 	},
 	"Vuetify grow":{
 		"prefix": "grow",
 		"body": "grow $0",
-		"description": "Vuetify prop grow"
+		"description": "Apply flex-grow: 1"
 	},
 	"Vuetify shrink":{
 		"prefix": "shrink",
 		"body": "shrink $0",
-		"description": "Vuetify prop shrink"
+		"description": "Apply flex-shrink: 1"
 	},
 	"Vuetify dark":{
 		"prefix": "dark",
 		"body": "dark $0",
-		"description": "Vuetify prop dark"
+		"description": "Applies the dark theme variant"
 	},
 	"Vuetify flat":{
 		"prefix": "flat",
 		"body": "flat $0",
-		"description": "Vuetify prop flat"
+		"description": "Removes the button background color"
 	},
 	"Vuetify Overflow":{
 		"prefix": "overflow",
@@ -1532,286 +1522,391 @@
 	"Vuetify app":{
 		"prefix": "app",
 		"body": "app $0",
-		"description": "Vuetify app"
+		"description": "Designates the component as part of the application layout. Used for dynamically adjusting content sizing. Components using this prop should reside outside of v-content to function properly"
 	},
 	"Vuetify :aspect-ratio":{
 		"prefix": ":aspectRatio",
-		"body": ":aspect-ratio=\"${16/9}\" $0",
-		"description": "Vuetify v-responsive prop :aspect-ratio"
+		"body": ":aspect-ratio=\"${1:16/9}\" $0",
+		"description": "Sets a base aspect ratio, calculated as width/height. This will only set a minimum height, the component can still grow if it has lots of content"
 	},
 	"Vuetify height":{
 		"prefix": "height",
-		"body": "height=\"${height}\" $0",
-		"description": "Vuetify v-responsive prop height"
+		"body": "height=\"${1:56}\" $0",
+		"description": "Sets the component height"
 	},
 	"Vuetify max-height":{
 		"prefix": "maxHeight",
 		"body": "max-height=\"${value}\" $0",
-		"description": "Vuetify v-responsive prop max-height"
+		"description": "Sets the maximum height for the content"
 	},
 	"Vuetify max-width":{
 		"prefix": "maxWidth",
 		"body": "max-width=\"${auto}\" $0",
-		"description": "Vuetify v-responsive prop max-width"
+		"description": "Specify the maximum width of the sheet's container"
 	},
 	"Vuetify min-height":{
 		"prefix": "minHeight",
 		"body": "min-height=\"${value}\" $0",
-		"description": "Vuetify v-responsive prop min-height"
+		"description": "Sets the minimum height for the content"
 	},
 	"Vuetify min-width":{
 		"prefix": "minWidth",
 		"body": "min-width=\"${value}\" $0",
-		"description": "Vuetify v-responsive prop min-width"
+		"description": "Sets the minimum width for the content"
 	},
 	"Vuetify width":{
 		"prefix": "width",
 		"body": "width=\"${value}\" $0",
-		"description": "Vuetify v-responsive prop width"
+		"description": "The width of the content"
 	},
 	"Vuetify absolute":{
 		"prefix": "absolute",
 		"body": "absolute $0",
-		"description": "Vuetify Toolbar props absolute"
+		"description": "Position the element absolutely"
 	},
 	"Vuetify card":{
 		"prefix": "card",
 		"body": "card $0",
-		"description": "Vuetify Toolbar props card"
+		"description": "Inherits border radius when used within v-card"
 	},
 	"Vuetify clipped-left":{
 		"prefix": "clippedLeft",
 		"body": "clipped-left $0",
-		"description": "Vuetify Toolbar props clipped-left"
+		"description": "Designates that the applications v-navigation-drawer is clipped on the left side of the toolbar"
 	},
 	"Vuetify clipped-right":{
 		"prefix": "clippedRight",
 		"body": "clipped-right $0",
-		"description": "Vuetify Toolbar props clipped-right"
+		"description": "Designates that the applications v-navigation-drawer is clipped on the right side of the toolbar"
 	},
 	"Vuetify dense":{
 		"prefix": "dense",
 		"body": "dense $0",
-		"description": "Vuetify Toolbar props dense"
+		"description": "Reduces the height of the toolbar content and extension"
 	},
 	"Vuetify extended":{
 		"prefix": "extended",
 		"body": "extended $0",
-		"description": "Vuetify Toolbar props extended"
+		"description": "Force the toolbar to generate the extension without using the slot"
 	},
 	"Vuetify color":{
 		"prefix": "color",
 		"body": "color=\"${undefined}\" $0",
-		"description": "Vuetify Toolbar props color"
+		"description": "Applies specified color to the control - it can be the name of material color (for example success or purple) or css color (#033 or rgba(255, 0, 0, 0.5))"
 	},
 	"Vuetify extension-height":{
 		"prefix": "extensionHeight",
 		"body": "extension-height=\"${undefined}\" $0",
-		"description": "Vuetify Toolbar props extension-height"
+		"description": "Specify an explicit height for the extended slot"
 	},
 	"Vuetify fixed":{
 		"prefix": "fixed",
 		"body": "fixed $0",
-		"description": "Vuetify Toolbar props fixed"
+		"description": "Position the element fixed"
 	},
 	"Vuetify floating":{
 		"prefix": "floating",
 		"body": "floating $0",
-		"description": "Vuetify Toolbar props floating"
+		"description": "Makes the toolbar float inline"
 	},
 	"Vuetify inverted-scroll":{
 		"prefix": "invertedScroll",
 		"body": "inverted-scroll=\"${undefined}\" $0",
-		"description": "Vuetify Toolbar props inverted-scroll"
+		"description": "Will slide out of view when scrolling down and back into view when scrolling up"
 	},
 	"Vuetify light":{
 		"prefix": "light",
 		"body": "light $0",
-		"description": "Vuetify Toolbar props light"
+		"description": "Applies the light theme variant"
 	},
 	"Vuetify manual-scroll":{
 		"prefix": "manualScroll",
 		"body": "manual-scroll $0",
-		"description": "Vuetify Toolbar props manual-scroll"
+		"description": "Manually apply the scroll-off-screen functionality"
 	},
 	"Vuetify prominent":{
 		"prefix": "prominent",
 		"body": "prominent $0",
-		"description": "Vuetify Toolbar props prominent"
+		"description": "Increases the height of the toolbar content and extension"
 	},
 	"Vuetify scroll-off-screen":{
 		"prefix": "scrollOffScreen",
 		"body": "scroll-off-screen $0",
-		"description": "Vuetify Toolbar props scroll-off-screen"
+		"description": "Will transition the toolbar and extension off screen when scrolling down"
 	},
 	"Vuetify scroll-target":{
 		"prefix": "scrollTarget",
 		"body": "scroll-target=\"${undefined}\" $0",
-		"description": "Vuetify Toolbar props scroll-target"
+		"description": "Assign the scroll target for scroll-off-screen"
 	},
 	"Vuetify scroll-threshold":{
 		"prefix": "scrollThreshold",
-		"body": "scroll-threshold=\"${300}\" $0",
-		"description": "Vuetify Toolbar props scroll-threshold"
+		"body": "scroll-threshold=\"${1:300}\" $0",
+		"description": "The amount of scroll distance down before the toolbar uses scroll-off-screen"
 	},
 	"Vuetify scroll-toolbar-off-screen":{
 		"prefix": "scrollToolbarOffScreen",
 		"body": "scroll-toolbar-off-screen $0",
-		"description": "Vuetify Toolbar props scroll-toolbar-off-screen"
+		"description": "Will transition the toolbar off screen when scrolling down"
 	},
 	"Vuetify tabs":{
 		"prefix": "tabs",
 		"body": "tabs $0",
-		"description": "Vuetify Toolbar props tabs"
+		"description": "Will set an explicit 42px height for extension. Useful when default v-tabs are used in the extended slot. If you have a custom height v-tab, you should specify a height with extensionHeight."
 	},
 	"Vuetify lights-out":{
 		"prefix": "lightsOut",
 		"body": "lights-out $0",
-		"description": "Vuetify Toolbar props lights-out"
+		"description": "Reduces the system bar opacity"
 	},
 	"Vuetify status":{
 		"prefix": "status",
 		"body": "status $0",
-		"description": "Vuetify Toolbar props status"
+		"description": "Reduces the system bar height"
 	},
 	"Vuetify window":{
 		"prefix": "window",
 		"body": "window $0",
-		"description": "Vuetify Toolbar props window"
+		"description": "Increases the system bar height"
 	},
 	"Vuetify dismissible":{
 		"prefix": "dismissible",
 		"body": "dismissible $0",
-		"description": "Vuetify Alert props dismissible"
+		"description": "Specifies that the Alert can be closed"
 	},
 	"Vuetify icon":{
 		"prefix": "icon",
 		"body": "icon=\"${undefined}\" $0",
-		"description": "Vuetify Alert props icon"
+		"description": "Designates a specific icon"
 	},
 	"Vuetify mode":{
 		"prefix": "mode",
 		"body": "mode=\"${undefined}\" $0",
-		"description": "Vuetify Alert props mode"
+		"description": "Sets the transition mode (does not apply to transition-group)"
 	},
 	"Vuetify origin":{
 		"prefix": "origin",
 		"body": "origin=\"${undefined}\" $0",
-		"description": "Vuetify Alert props origin"
+		"description": "Sets the transition origin"
 	},
 	"Vuetify outline":{
 		"prefix": "outline",
 		"body": "outline $0",
-		"description": "Vuetify Alert props outline"
+		"description": "Button or Alert will have an outline"
 	},
 	"Vuetify transition":{
 		"prefix": "transition",
-		"body": "transition=\"${undefined}\" $0",
-		"description": "Vuetify Alert props transition"
-	},
-	"Vuetify value":{
-		"prefix": "value",
-		"body": "value=\"${undefined}\" $0",
-		"description": "Vuetify Alert props value"
+		"body": "transition=\"${1:fab-transition}\" $0",
+		"description": "Sets the component transition. Can be one of the built in transitions or your own."
 	},
 	"Vuetify type":{
 		"prefix": "type",
 		"body": "type=\"${1|success,info,warning,error|}\" $0",
-		"description": "Vuetify Alert props type"
+		"description": "Specify a success, info, warning or error alert. Uses the contextual color and a pre-defined icon. Or Set the button's type attribute"
 	},
 	"Vuetify input":{
 		"prefix": "input",
 		"body": "input=\"${true}\" $0",
-		"description": "Vuetify Alert event input"
+		"description": "The updated bound model"
 	},
 	"Vuetify size":{
 		"prefix": "size",
-		"body": "size=\"${48}\" $0",
-		"description": "Vuetify Avatar props size"
+		"body": "size=\"${1:48}\" $0",
+		"description": "Sets the height and width of the element"
 	},
 	"Vuetify tile":{
 		"prefix": "tile",
 		"body": "tile $0",
-		"description": "Vuetify Avatar props tile"
+		"description": "Removes border radius"
 	},
 	"Vuetify bottom":{
 		"prefix": "bottom",
 		"body": "bottom $0",
-		"description": "Vuetify Badge props bottom"
+		"description": "Align the component towards the bottom"
 	},
 	"Vuetify left":{
 		"prefix": "left",
 		"body": "left $0",
-		"description": "Vuetify Badge props left"
+		"description": "Align the component towards the left"
 	},
 	"Vuetify overlap":{
 		"prefix": "overlap",
 		"body": "overlap $0",
-		"description": "Vuetify Badge props overlap"
+		"description": "Component will overlap the slotted content"
 	},
 	"Vuetify active.sync":{
 		"prefix": "activeSync",
 		"body": ":active.sync=\"${undefined}\" $0",
-		"description": "Vuetify Bottom nav props active.sync"
+		"description": "Holds the value of the currently active button. If the button has no value supplied, its index will be used instead. This prop supports the .sync modifier."
 	},
 	"Vuetify mandatory":{
 		"prefix": "mandatory",
 		"body": "mandatory $0",
-		"description": "Vuetify Bottom nav props mandatory"
+		"description": "Forces a value to always be selected"
 	},
 	"Vuetify shift":{
 		"prefix": "shift",
 		"body": "shift $0",
-		"description": "Vuetify Bottom nav props shift"
+		"description": "Hide text of button when not active"
 	},
 	"Vuetify update:active":{
 		"prefix": "updateActive",
 		"body": ":update:active=\"${undefined}\" $0",
-		"description": "Vuetify Bottom nav event update:active"
+		"description": "The event used for active.sync"
 	},
 	"Vuetify disabled":{
 		"prefix": "disabled",
 		"body": "disabled $0",
-		"description": "Vuetify Bottom sheet props disabled"
+		"description": "Route item is disabled or Disables the ability to open the dialog"
 	},
 	"Vuetify full-width":{
 		"prefix": "fullWidth",
 		"body": "full-width $0",
-		"description": "Vuetify Bottom sheet props full-width"
+		"description": "Forces 100% width"
 	},
 	"Vuetify hide-overlay":{
 		"prefix": "hideOverlay",
 		"body": "hide-overlay $0",
-		"description": "Vuetify Bottom sheet props hide-overlay"
+		"description": "Hide the display of the overlay"
 	},
 	"Vuetify inset":{
 		"prefix": "inset",
 		"body": "inset $0",
-		"description": "Vuetify Bottom sheet props inset"
+		"description": "Reduces the dialog content maximum width to 70%"
 	},
 	"Vuetify lazy":{
 		"prefix": "lazy",
 		"body": "lazy $0",
-		"description": "Vuetify Bottom sheet props lazy"
+		"description": "Conditionally renders content on mounted. Will only render content if activated"
 	},
 	"Vuetify persistent":{
 		"prefix": "persistent",
 		"body": "persistent $0",
-		"description": "Vuetify Bottom sheet props persistent"
+		"description": "Clicking outside will not dismiss the dialog"
 	},
 	"Vuetify divider":{
 		"prefix": "divider",
-		"body": "divider=\"$1/\" $0",
-		"description": "Vuetify Breadcrumbs props divider"
+		"body": "divider=\"${1:/}\" $0",
+		"description": "Specifies the dividing character"
 	},
 	"Vuetify items":{
 		"prefix": "items",
 		"body": "items=\"[$1]\" $0",
-		"description": "Vuetify Breadcrumbs props items"
+		"description": "An array of objects describing each breadcrumb. See v-breadcrumbs-item API section for all object properties. Use text property for the breadcrumb text."
 	},
 	"Vuetify large":{
 		"prefix": "large",
 		"body": "large $0",
-		"description": "Vuetify Breadcrumbs props large"
+		"description": "Large size button or Increase the font-size of the breadcrumb item text"
+	},
+	"Vuetify active-class":{
+		"prefix": "activeClass",
+		"body": "active-class=\"${1:v-btn--active}\" $0",
+		"description": "Class bound when component is active. warning Depending upon the component, this could cause side effects. If you need to add a custom class on top of a default, just do active-class=\"default-class your-class\""
+	},
+	"Vuetify append":{
+		"prefix": "append",
+		"body": "append $0",
+		"description": "Vue Router router-link prop"
+	},
+	"Vuetify block":{
+		"prefix": "block",
+		"body": "block $0",
+		"description": "Expands the button to 100% of available space"
+	},
+	"Vuetify depressed":{
+		"prefix": "depressed",
+		"body": "depressed $0",
+		"description": "Removes the button box shadow"
+	},
+	"Vuetify exact":{
+		"prefix": "exact",
+		"body": "exact $0",
+		"description": "Exactly match the link. Without this, '/' will match every route"
+	},
+	"Vuetify exact-active-class":{
+		"prefix": "exactActiveClass",
+		"body": "exact-active-class=\"${undefined}\" $0",
+		"description": "Vue Router router-link prop"
+	},
+	"Vuetify fab":{
+		"prefix": "fab",
+		"body": "fab $0",
+		"description": "Makes button round"
+	},
+	"Vuetify href":{
+		"prefix": "href",
+		"body": "href=\"${undefined}\" $0",
+		"description": "Will designate the component tag to <a>"
+	},
+	"Vuetify icon button":{
+		"prefix": "icon",
+		"body": "icon $0",
+		"description": "Designates the button as icon - round and flat"
+	},
+	"Vuetify input-value":{
+		"prefix": "inputValue",
+		"body": "input-value=\"${undefined}\" $0",
+		"description": "Controls the button active state"
+	},
+	"Vuetify loading":{
+		"prefix": "loading",
+		"body": "loading $0",
+		"description": "Adds a loading icon animation"
+	},
+	"Vuetify nuxt":{
+		"prefix": "nuxt",
+		"body": "nuxt $0",
+		"description": "Specifies the link is a nuxt-link"
+	},
+	"Vuetify replace":{
+		"prefix": "replace",
+		"body": "replace $0",
+		"description": "Vue Router router-link prop"
+	},
+	"Vuetify right":{
+		"prefix": "right",
+		"body": "right $0",
+		"description": "Align the component towards the right"
+	},
+	"Vuetify round":{
+		"prefix": "round",
+		"body": "round $0",
+		"description": "Button will be round on the sides"
+	},
+	"Vuetify small":{
+		"prefix": "small",
+		"body": "small $0",
+		"description": "Small size button"
+	},
+	"Vuetify target":{
+		"prefix": "target",
+		"body": "target=\"${undefined}\" $0",
+		"description": "Specify the target attribute."
+	},
+	"Vuetify to":{
+		"prefix": "to",
+		"body": "to=\"${undefined}\" $0",
+		"description": "Will designate the component tag to <router-link>"
+	},
+	"Vuetify top":{
+		"prefix": "top",
+		"body": "top $0",
+		"description": "Align the content towards the top"
+	},
+	"Vuetify value":{
+		"prefix": "value",
+		"body": "value=\"${undefined}\" $0",
+		"description": "Controls visibility"
+	},
+	"Vuetify max":{
+		"prefix": "max",
+		"body": "max=\"${undefined}\" $0",
+		"description": "Sets maximum width"
+	},
+	"Vuetify multiple":{
+		"prefix": "multiple",
+		"body": "multiple $0",
+		"description": "Allows for multiple selections. Model used must be an Array"
 	}
 }
