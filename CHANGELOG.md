@@ -3,6 +3,14 @@
 ## [Unreleased]
 - GIF
 
+## [0.4.0] - 2019-06-25
+### Added
+- 52 snippets (Calendars, Cards and Carousels)
+- More friendly descriptions
+
+### Fixed
+- Improvements on some components.
+
 ## [0.3.0] - 2019-06-21
 ### Added
 - 19 snippets

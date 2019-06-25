@@ -2,7 +2,7 @@
 	"Template with v-slot": {
 		"prefix": "templateSlotActivator",
 		"body": [
-			"template(v-slot:activator)",
+			"template( v-slot:activator )",
 			"\t$0"
 		],
 		"description": "template with v-slot-activator"
@@ -138,8 +138,8 @@
 	"Vuetify v-calendar": {
 		"prefix": "vCalendar",
 		"body": [
-			"v-calendar",
-			"\t$0"
+			"v-calendar( $0 )",
+			"\t"
 		],
 		"description": "v-calendar Component"
 	},
@@ -170,8 +170,8 @@
 	"Vuetify v-card": {
 		"prefix": "vCard",
 		"body": [
-			"v-card",
-			"\t$0"
+			"v-card ( $0 )",
+			"\t"
 		],
 		"description": "v-card Component"
 	},
@@ -265,8 +265,8 @@
 	"Vuetify v-container": {
 		"prefix": "vContainer",
 		"body": [
-			"v-container",
-			"\t$0"
+			"v-container ( $0 )",
+			"\t"
 		],
 		"description": "v-container Grid Component"
 	},
@@ -441,8 +441,8 @@
 	"Vuetify v-flex": {
 		"prefix": "vFlex",
 		"body": [
-			"v-flex",
-			"\t$0"
+			"v-flex( $0 )",
+			"\t"
 		],
 		"description": "v-flex Grid Component"
 	},
@@ -488,7 +488,7 @@
 	"Vuetify v-img": {
 		"prefix": "vImg",
 		"body": [
-			"v-img(src=\"${sourcefte}\")",
+			"v-img( src=\"${1:sourceImg}\" )",
 			"\t$0"
 		],
 		"description": "v-img Component"
@@ -536,8 +536,8 @@
 	"Vuetify v-layout": {
 		"prefix": "vLayout",
 		"body": [
-			"v-layout",
-			"\t$0"
+			"v-layout ( $0 )",
+			"\t"
 		],
 		"description": "v-layout Grid Component"
 	},
@@ -630,8 +630,8 @@
 	"Vuetify v-menu": {
 		"prefix": "vMenu",
 		"body": [
-			"v-menu",
-			"\t$0"
+			"v-menu ( $0 )",
+			"\t"
 		],
 		"description": "v-menu Component"
 	},
@@ -798,8 +798,8 @@
 	"Vuetify v-select": {
 		"prefix": "vSelect",
 		"body": [
-			"v-select",
-			"\t$0"
+			"v-select( $0 )",
+			"\t"
 		],
 		"description": "v-select Component"
 	},
@@ -1069,8 +1069,8 @@
 	"Vuetify v-toolbar": {
 		"prefix": "vToolbar",
 		"body": [
-			"v-toolbar",
-			"\t$0"
+			"v-toolbar ( $0 )",
+			"\t"
 		],
 		"description": "v-toolbar Component"
 	},
@@ -1257,6 +1257,11 @@
 		],
 		"description": "Option style"
 	},
+	"Vuetify v-html":{
+		"prefix": "vHtml",
+		"body": "v-html=\"${1:rawHtml}\" $0",
+		"description": "Output real HTML"
+	},
 	"Vuetify Resize directive": {
 		"prefix": "vResize",
 		"body": [
@@ -1392,7 +1397,7 @@
 	"Vuetify reverse":{
 		"prefix": "reverse",
 		"body": "reverse ",
-		"description": "Sets flex direction to row"
+		"description": "Sets flex direction to row or (in carousels) manually set the window to use the reverseTransition"
 	},
 	"Vuetify row":{
 		"prefix": "row",
@@ -1502,22 +1507,22 @@
 	"Vuetify flat":{
 		"prefix": "flat",
 		"body": "flat $0",
-		"description": "Removes the button background color"
+		"description": "Removes the button background color or Removes card box shadow"
 	},
 	"Vuetify Overflow":{
 		"prefix": "overflow",
 		"body": "overflow-${1|hidden,y-hidden,x-hidden|} ",
-		"description": "Vuetify prop overflow"
+		"description": "Set the overflow for an element with overflow-{axis}-hidden or simply overflow-hidden."
 	},
 	"Vuetify Spacing Margin":{
 		"prefix": "m",
 		"body": "m${1|t,b,l,r,x,y,a|}-${2|auto,0,1,2,3,4,5|} $0",
-		"description": "Vuetify Helper Class Spacing Margin"
+		"description": "The helper classes apply margin to an element ranging from 0 to 5. Each size increment was designed to align with common Material Design spacings. These classes can be applied using the following format m{direction}-{size}."
 	},
 	"Vuetify Spacing Padding":{
 		"prefix": "p",
 		"body": "p${1|t,b,l,r,x,y,a|}-${2|auto,0,1,2,3,4,5|} $0",
-		"description": "Vuetify Helper Class Spacing Padding"
+		"description": "The helper classes apply padding to an element ranging from 0 to 5. Each size increment was designed to align with common Material Design spacings. These classes can be applied using the following format p{direction}-{size}."
 	},
 	"Vuetify app":{
 		"prefix": "app",
@@ -1717,7 +1722,7 @@
 	"Vuetify tile":{
 		"prefix": "tile",
 		"body": "tile $0",
-		"description": "Removes border radius"
+		"description": "Removes the component's border-radius"
 	},
 	"Vuetify bottom":{
 		"prefix": "bottom",
@@ -1801,7 +1806,7 @@
 	},
 	"Vuetify active-class":{
 		"prefix": "activeClass",
-		"body": "active-class=\"${1:v-btn--active}\" $0",
+		"body": "active-class=\"${1:v-item--active}\" $0",
 		"description": "Class bound when component is active. warning Depending upon the component, this could cause side effects. If you need to add a custom class on top of a default, just do active-class=\"default-class your-class\""
 	},
 	"Vuetify append":{
@@ -1908,5 +1913,260 @@
 		"prefix": "multiple",
 		"body": "multiple $0",
 		"description": "Allows for multiple selections. Model used must be an Array"
+	},
+	"Vuetify direction":{
+		"prefix": "direction",
+		"body": "direction=\"${top}\" $0",
+		"description": "Direction in which speed-dial content will show. Possible values are top, bottom, left, right."
+	},
+	"Vuetify open-on-hover":{
+		"prefix": "openOnHover",
+		"body": "open-on-hover $0",
+		"description": "Opens speed-dial on hover"
+	},
+	"Vuetify day-format":{
+		"prefix": "dayFormat",
+		"body": "day-format $0",
+		"description": "Formats day of the month string that appears in a day to a specified locale"
+	},
+	"Vuetify end":{
+		"prefix": "end",
+		"body": "end=\"${1:0000-00-00}\" $0",
+		"description": "The ending date on the calendar (inclusive) in the format of YYYY-MM-DD. This may be ignored depending on the type of the calendar."
+	},
+	"Vuetify first-interval":{
+		"prefix": "firstInterval",
+		"body": "first-interval=\"${1:0}\" $0",
+		"description": "The first interval to display in the day view. If intervalMinutes is set to 60 and this is set to 9 the first time in the view is 9am."
+	},
+	"Vuetify hide-header":{
+		"prefix": "hideHeader",
+		"body": "hide-header $0",
+		"description": "If the header at the top of the day view should be visible."
+	},
+	"Vuetify interval-count":{
+		"prefix": "intervalCount",
+		"body": "interval-count=\"${1:24}\" $0",
+		"description": "The number of intervals to display in the day view."
+	},
+	"Vuetify interval-format":{
+		"prefix": "intervalFormat",
+		"body": "interval-format=\"${1:null}\" $0",
+		"description": "Formats time of day string that appears in the interval gutter of the day and week view to specified locale"
+	},
+	"Vuetify interval-height":{
+		"prefix": "intervalHeight",
+		"body": "interval-height=\"${1:40}\" $0",
+		"description": "The height of an interval in pixels in the day view."
+	},
+	"Vuetify interval-minutes":{
+		"prefix": "intervalMinutes",
+		"body": "interval-minutes=\"${1:60}\" $0",
+		"description": "The number of minutes the intervals are in the day view. A common interval is 60 minutes so the intervals are an hour."
+	},
+	"Vuetify interval-style":{
+		"prefix": "intervalStyle",
+		"body": "interval-style=\"${1:null}\" $0",
+		"description": "Returns CSS styling to apply to the interval."
+	},
+	"Vuetify locale":{
+		"prefix": "locale",
+		"body": "locale=\"${1:en-us}\" $0",
+		"description": "The locale of the calendar."
+	},
+	"Vuetify max-days":{
+		"prefix": "maxDays",
+		"body": "max-days=\"${1:7}\" $0",
+		"description": "The maximum number of days to display in the custom calendar if an end day is not set."
+	},
+	"Vuetify min-weeks":{
+		"prefix": "minWeeks",
+		"body": "min-weeks=\"${1:1}\" $0",
+		"description": "The minimum number of weeks to display in the month or week view."
+	},
+	"Vuetify month-format":{
+		"prefix": "monthFormat",
+		"body": "month-format=\"${1:null}\" $0",
+		"description": "Formats month string that appears in a day to specified locale"
+	},
+	"Vuetify now":{
+		"prefix": "now",
+		"body": "now=\"${1:undefined}\" $0",
+		"description": "Override the day & time which is considered now. This is in the format of YYYY-MM-DD hh:mm:ss. The calendar is styled according to now."
+	},
+	"Vuetify short-intervals":{
+		"prefix": "shortIntervals",
+		"body": "short-intervals $0",
+		"description": "If true, the intervals in the day view will be 9 AM as opposed to 09:00 AM"
+	},
+	"Vuetify short-months":{
+		"prefix": "shortMonths",
+		"body": "short-months $0",
+		"description": "Whether the short versions of a month should be used (Jan vs January)."
+	},
+	"Vuetify short-weekdays":{
+		"prefix": "shortWeekdays",
+		"body": "short-weekdays $0",
+		"description": "Whether the short versions of a weekday should be used (Mon vs Monday)."
+	},
+	"Vuetify show-interval-label":{
+		"prefix": "showIntervalLabel",
+		"body": "show-interval-label=\"${1:null}\" $0",
+		"description": "Checks if a given day and time should be displayed in the interval gutter of the day view."
+	},
+	"Vuetify show-month-on-first":{
+		"prefix": "showMonthOnFirst",
+		"body": "show-month-on-first $0",
+		"description": "Whether the name of the month should be displayed on the first day of the month."
+	},
+	"Vuetify start":{
+		"prefix": "start",
+		"body": "start=\"${1:2019-06-20}\" $0",
+		"description": "The starting date on the calendar (inclusive) in the format of YYYY-MM-DD. This may be ignored depending on the type of the calendar."
+	},
+	"Vuetify type calendar":{
+		"prefix": "type",
+		"body": "type=\"${1:month}\" $0",
+		"description": "A string which is one of month, week, day, 4day, custom-weekly, and custom-daily. The custom types look at the start and end dates passed to the component as opposed to the value."
+	},
+	"Vuetify value calendar":{
+		"prefix": "value",
+		"body": "value=\"${1:undefined}\" $0",
+		"description": "A date in the format of YYYY-MM-DD which determines what span of time for the calendar."
+	},
+	"Vuetify weekday-format":{
+		"prefix": "weekdayFormat",
+		"body": "weekday-format=\"${1:null}\" $0",
+		"description": "Formats day of the week string that appears in the header to specified locale"
+	},
+	"Vuetify weekdays":{
+		"prefix": "weekdays",
+		"body": "weekdays=\"${1:[0,1,2,3,4,5,6]}\" $0",
+		"description": "Specifies which days of the week to display. To display Monday through Friday only, a value of [1, 2, 3, 4, 5] can be used. To display a week starting on Monday a value of [1, 2, 3, 4, 5, 6, 0] can be used."
+	},
+	"Vuetify elevation":{
+		"prefix": "elevation",
+		"body": "elevation=\"${1:0}\" $0",
+		"description": "Designates an elevation between 0 and 24"
+	},
+	"Vuetify hover":{
+		"prefix": "hover",
+		"body": "hover $0",
+		"description": "Apply a higher elevation on hover"
+	},
+	"Vuetify img":{
+		"prefix": "img",
+		"body": "img=\"${1:undefined}\" $0",
+		"description": "Specifies an image background"
+	},
+	"Vuetify raised":{
+		"prefix": "raised",
+		"body": "raised $0",
+		"description": "Specifies a higher default elevation"
+	},
+	"Vuetify alt":{
+		"prefix": "alt",
+		"body": "alt=\"${1:undefined}\" $0",
+		"description": "Alternate text for screen readers. Leave empty for decorative images"
+	},
+	"Vuetify aspect-ratio":{
+		"prefix": "aspectRatio",
+		"body": "aspect-ratio=\"${1:undefined}\" $0",
+		"description": "Calculated as width/height, so for a 1920x1080px image this will be 1.7778. Will be calculated automatically if omitted"
+	},
+	"Vuetify contain":{
+		"prefix": "contain",
+		"body": "contain $0",
+		"description": "Change the background-size to contain."
+	},
+	"Vuetify gradient ":{
+		"prefix": "gradient ",
+		"body": "gradient =\"${1:undefined}\" $0",
+		"description": "Overlays a gradient onto the image. Only supports linear-gradient syntax, anything else should be done with classes (see examples)"
+	},
+	"Vuetify lazy-src":{
+		"prefix": "lazySrc",
+		"body": "lazy-src=\"${1:undefined}\" $0",
+		"description": "Something to show while waiting for the main image to load, typically a small base64-encoded thumbnail. Has a slight blur filter applied. Use vuetify-loader to generate automatically"
+	},
+	"Vuetify position":{
+		"prefix": "position",
+		"body": "position=\"${1:center center}\" $0",
+		"description": "Overrides the default to change which parts get cropped off. Uses the same syntax as background-position"
+	},
+	"Vuetify sizes":{
+		"prefix": "sizes",
+		"body": "sizes=\"${1:undefined}\" $0",
+		"description": "For use with srcset, see MDN"
+	},
+	"Vuetify src":{
+		"prefix": "src",
+		"body": "src=\"${1:undefined}\" $0",
+		"description": "The image to display as a background."
+	},
+	"Vuetify srcset":{
+		"prefix": "srcset",
+		"body": "srcset=\"${1:undefined}\" $0",
+		"description": "A set of alternate images to use based on device size."
+	},
+	"Vuetify primary-title":{
+		"prefix": "primaryTitle",
+		"body": "primary-title $0",
+		"description": "Applies primary title specific padding."
+	},
+	"Vuetify cycle":{
+		"prefix": "cycle",
+		"body": "cycle $0",
+		"description": "Determines if carousel should cycle through images"
+	},
+	"Vuetify delimiter-icon":{
+		"prefix": "delimiterIcon",
+		"body": "delimiter-icon=\"${1:$vuetify.icons.delimiter}\" $0",
+		"description": "Sets icon for carousel delimiter"
+	},
+	"Vuetify hide-controls":{
+		"prefix": "hideControls",
+		"body": "hide-controls $0",
+		"description": "Hides the navigation controls"
+	},
+	"Vuetify hide-delimiters":{
+		"prefix": "hideDelimiters",
+		"body": "hide-delimiters $0",
+		"description": "Hides the panel with carousel delimiters"
+	},
+	"Vuetify interval":{
+		"prefix": "interval",
+		"body": "interval=\"${1:6000}\" $0",
+		"description": "The duration between image cycles"
+	},
+	"Vuetify next-icon":{
+		"prefix": "nextIcon",
+		"body": "next-icon=\"${1:$vuetify.icons.next}\" $0",
+		"description": "The displayed icon for forcing pagination to the next item"
+	},
+	"Vuetify prev-icon":{
+		"prefix": "prevIcon",
+		"body": "prev-icon=\"${1:$vuetify.icons.prev}\" $0",
+		"description": "The displayed icon for forcing pagination to the previous item"
+	},
+	"Vuetify touch":{
+		"prefix": "touch",
+		"body": "touch=\"${1:undefined}\" $0",
+		"description": "Provide a custom left and right function when swiped left or right"
+	},
+	"Vuetify touchless":{
+		"prefix": "touchless",
+		"body": "touchless $0",
+		"description": "Disable touch support"
+	},
+	"Vuetify vertical":{
+		"prefix": "vertical",
+		"body": "vertical $0",
+		"description": "Uses a vertical transition when changing windows"
+	},
+	"Vuetify reverse-transition":{
+		"prefix": "reverseTransition",
+		"body": "reverse-transition=\"${1:undefined}\" $0",
+		"description": "Sets the reverse transition"
 	}
 }

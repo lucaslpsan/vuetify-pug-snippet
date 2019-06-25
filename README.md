@@ -14,7 +14,7 @@ VSCode Snippet for the Vuetify framework using Pug. Type faster with:
 ## Features
 
 - Created from Vuetify 1.5.14 and Vue 2.
-- More than 280 snippets.
+- More than 340 snippets.
 - All components of Vuetify.
 - Now the snippets will have a more friendly description, following the official documentation.
 
