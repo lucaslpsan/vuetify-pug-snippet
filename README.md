@@ -32,20 +32,7 @@ Friendly Description
 ![example](assets/example-description.png)
 
 ## Comparison Tags HTML vs Pug
-<style>
-.container-snippet{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: end;
-    grid-gap: 1%;
-}
-.container-snippet figure{
-    margin: 0;
-}
-.container-snippet figure figcaption{
-    text-align: center;
-}
-</style>
+<link href="assets/style-md.css" rel="stylesheet"></link>
 <div class="container-snippet">
     <div>
         <figure>
