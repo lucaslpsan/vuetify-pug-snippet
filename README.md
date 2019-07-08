@@ -33,9 +33,9 @@ Friendly Description
 
 ## Comparison Tags HTML vs Pug
 <p>
-    <img style="width:32%" src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/code-result.png" >
-    <img style="width:33%" src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/code-html.png">
-    <img style="width:33%" src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/code-pug.png">
+    <img width=32% src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/code-result.png" >
+    <img width=33% src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/code-html.png">
+    <img width=33% src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/code-pug.png">
 </p>
 
 No tag pollution, no closing tags, use indentation and understand better.
