@@ -1,7 +1,25 @@
 # Change Log
 
 ## [Unreleased]
-- GIF
+- Improvements
+
+## [0.5.0] - 2019-07-08
+### Added
+- New SQLite database.
+- New Node.js scripts to automate the generation of snippets.json
+- Presentation GIF
+- New images
+- New workflow
+- New Vuetify v.2 components.
+- New alert properties.
+
+### Changed
+- The base version is now Vuetify version 2 (in beta).
+- The format of snippets.json, now it uses fewer rows.
+- Improved README
+
+### Removed
+- Deprecated components of Vuetify version 1.
 
 ## [0.4.0] - 2019-06-25
 ### Added

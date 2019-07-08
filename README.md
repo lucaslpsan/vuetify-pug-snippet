@@ -11,14 +11,16 @@ VSCode Snippet for the Vuetify framework using Pug. Type faster with:
 * Correct writing and indentation.
 * Friendly Description
 
+![Gif](assets/vuetify-pug-snippet.gif)
+
 ## Features
+### Built for Vuetify 2 (in beta).
+> From version 0.5.0 the snippet was redone to version 2 of Vuetify. New possibilities, components and benefits. A new structure was made for the snippet.
 
-- Created from Vuetify 1.5.14 and Vue 2.
-- More than 340 snippets.
-- All components of Vuetify.
-- Now the snippets will have a more friendly description, following the official documentation.
-
-> The first few components have not yet received a friendly description, but will have soon.
+- Created from Vuetify v2.0.0-beta.5 and Vue 2.
+- More than 365 snippets.
+- All components of Vuetify 2.
+- Now the snippets will have a more friendly description, following the official documentation (in progress).
 
 ## Usage
 You only have to type a part of the component, VSCode will present you with a list of combinations. Pressing Tab to enter the full component name or even a code skeleton.
@@ -29,9 +31,49 @@ Auto Completion
 Friendly Description
 ![example](assets/example-description.png)
 
+## Comparison Tags HTML vs Pug
+<style>
+.container-snippet{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: end;
+    grid-gap: 1%;
+}
+.container-snippet figure{
+    margin: 0;
+}
+.container-snippet figure figcaption{
+    text-align: center;
+}
+</style>
+<div class="container-snippet">
+    <div>
+        <figure>
+            <img src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/code-result.png" >
+            <figcaption>Result</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure>
+            <img src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/code-html.png">
+            <figcaption>Tags HTML</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure>
+            <img src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/code-pug.png">
+            <figcaption>Pug</figcaption>
+        </figure>
+    </div>
+</div>
+
+No tag pollution, no closing tags, use indentation and understand better.
+
 ## Requirements
 
 Installing the pug package via npm - `npm i pug`
+
+Also install via npm - `npm i pug-plain-loader`
 
 The code must be inside a template lang="pug".
 ```
@@ -42,7 +84,7 @@ The code must be inside a template lang="pug".
 [VSCode Extesion Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) installed.
 
 ## Known Issues
-FThe snippets will be shown for pug code even though it is not a `.vue` file.
+The snippets will be shown for pug code even though it is not a `.vue` file. In this case, if the project is not Vuetify, you can disable it in the workspace.
 
 ## Release Notes
 
@@ -63,11 +105,11 @@ From:
 
 ## For more information
 
-* [Vuetify](https://vuetifyjs.com/)
+* [Vuetify Beta](https://next.vuetifyjs.com/)
 * [Pug](https://pugjs.org/)
 * [Vetur](https://vuejs.github.io/vetur)
 
 ### License
-MIT © [lucaslpsan](https://github.com/lucaslpsan)
+MIT © [lucaslpsan](https://lucaslpsan.github.io/en/)
 
 **Enjoy!**

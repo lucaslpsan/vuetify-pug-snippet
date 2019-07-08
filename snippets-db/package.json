@@ -1,0 +1,15 @@
+{
+  "name": "snippets-db",
+  "version": "1.0.0",
+  "description": "Vuetify-Snippet-Pug database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo Run prop, gen and copy snippet.json for VSCode's folder && node prop && node gen && Copy-Snippet.bat"
+  },
+  "author": "lucaslpsan",
+  "license": "MIT",
+  "dependencies": {
+    "sqlite3": "^4.0.9"
+  }
+}
