@@ -32,26 +32,11 @@ Friendly Description
 ![example](assets/example-description.png)
 
 ## Comparison Tags HTML vs Pug
-<div style="display: grid;grid-template-columns: repeat(3, 1fr);align-items: end;grid-gap: 1%;">
-    <div>
-        <figure style="margin: 0;">
-            <img src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/code-result.png" >
-            <figcaption style="text-align: center;">Result</figcaption>
-        </figure>
-    </div>
-    <div>
-        <figure style="margin: 0;">
-            <img src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/code-html.png">
-            <figcaption style="text-align: center;">Tags HTML</figcaption>
-        </figure>
-    </div>
-    <div>
-        <figure style="margin: 0;">
-            <img src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/code-pug.png">
-            <figcaption style="text-align: center;">Pug</figcaption>
-        </figure>
-    </div>
-</div>
+<p>
+    <img style="width:32%" src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/code-result.png" >
+    <img style="width:33%" src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/code-html.png">
+    <img style="width:33%" src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/code-pug.png">
+</p>
 
 No tag pollution, no closing tags, use indentation and understand better.
 
