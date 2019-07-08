@@ -32,24 +32,23 @@ Friendly Description
 ![example](assets/example-description.png)
 
 ## Comparison Tags HTML vs Pug
-<link href="assets/style-md.css" rel="stylesheet"></link>
-<div class="container-snippet">
+<div style="display: grid;grid-template-columns: repeat(3, 1fr);align-items: end;grid-gap: 1%;">
     <div>
-        <figure>
+        <figure style="margin: 0;">
             <img src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/code-result.png" >
-            <figcaption>Result</figcaption>
+            <figcaption style="text-align: center;">Result</figcaption>
         </figure>
     </div>
     <div>
-        <figure>
+        <figure style="margin: 0;">
             <img src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/code-html.png">
-            <figcaption>Tags HTML</figcaption>
+            <figcaption style="text-align: center;">Tags HTML</figcaption>
         </figure>
     </div>
     <div>
-        <figure>
+        <figure style="margin: 0;">
             <img src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/code-pug.png">
-            <figcaption>Pug</figcaption>
+            <figcaption style="text-align: center;">Pug</figcaption>
         </figure>
     </div>
 </div>
