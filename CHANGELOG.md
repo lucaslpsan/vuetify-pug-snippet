@@ -3,6 +3,10 @@
 ## [Unreleased]
 - Improvements
 
+## [0.5.1] - 2019-07-08
+### Changed
+- The icon has been moved to the root of the project. This way, vsce stops packaging the /assets folder in .vsix.
+
 ## [0.5.0] - 2019-07-08
 ### Added
 - New SQLite database.

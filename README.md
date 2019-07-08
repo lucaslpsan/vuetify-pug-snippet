@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/icon.png" height="165" alt="Icon">
+<img src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/icon.png" height="165" alt="Icon">
 </p>
 
 # Vuetify Pug snippet
@@ -11,7 +11,7 @@ VSCode Snippet for the Vuetify framework using Pug. Type faster with:
 * Correct writing and indentation.
 * Friendly Description
 
-![Gif](assets/vuetify-pug-snippet.gif)
+![Gif](https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/vuetify-pug-snippet.gif)
 
 ## Features
 ### Built for Vuetify 2 (in beta).
@@ -26,10 +26,10 @@ VSCode Snippet for the Vuetify framework using Pug. Type faster with:
 You only have to type a part of the component, VSCode will present you with a list of combinations. Pressing Tab to enter the full component name or even a code skeleton.
 
 Auto Completion
-![example](assets/example.png)
+![example](https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/example.png)
 
 Friendly Description
-![example](assets/example-description.png)
+![example](https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/example-description.png)
 
 ## Comparison Tags HTML vs Pug
 <p>

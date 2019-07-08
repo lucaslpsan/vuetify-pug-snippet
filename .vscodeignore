@@ -3,4 +3,5 @@
 .gitignore
 vsc-extension-quickstart.md
 *.vsix
-snippets-db/**
+snippets-db/
+assets/

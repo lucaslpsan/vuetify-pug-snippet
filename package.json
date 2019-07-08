@@ -4,10 +4,10 @@
     "description": "Snippet for the Vuetify framework using Pug. Type faster with Auto Completion and Identation.",
     "author": "Lucaslpsan",
     "publisher": "lucaslpsan",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "license": "MIT",
     "preview": true,
-    "icon": "assets/icon.png",
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.32.0"
     },
