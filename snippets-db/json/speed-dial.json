@@ -1,0 +1,14 @@
+[
+	{"name": "absolute", "valueDefault": "false", "type": "boolean", "description": "Applies position: absolute to the component."},
+	{"name": "bottom", "valueDefault": "false", "type": "boolean", "description": "Aligns the component towards the bottom."},
+	{"name": "direction", "valueDefault": "'top'", "type": "string", "description": "Direction in which speed-dial content will show. Possible values are top, bottom, left, right."},
+	{"name": "fixed", "valueDefault": "false", "type": "boolean", "description": "Applies position: fixed to the component."},
+	{"name": "left", "valueDefault": "false", "type": "boolean", "description": "Aligns the component towards the left."},
+	{"name": "mode", "valueDefault": "undefined", "type": "string", "description": "Sets the transition mode (does not apply to transition-group). You can find more information on the Vue documentation for transition modes."},
+	{"name": "open-on-hover", "valueDefault": "false", "type": "boolean", "description": "Opens speed-dial on hover"},
+	{"name": "origin", "valueDefault": "undefined", "type": "string", "description": "Sets the transition origin on the element. You can find more information on the MDN documentation for transition origin."},
+	{"name": "right", "valueDefault": "false", "type": "boolean", "description": "Aligns the component towards the right."},
+	{"name": "top", "valueDefault": "false", "type": "boolean", "description": "Aligns the content towards the top."},
+	{"name": "transition", "valueDefault": "'scale-transition'", "type": "string", "description": "Sets the component transition. Can be one of the built in transitions or one your own."},
+	{"name": "value", "valueDefault": "undefined", "type": "any", "description": "Controls whether the component is visible or hidden."}
+]

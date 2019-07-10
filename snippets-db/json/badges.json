@@ -1,0 +1,10 @@
+[
+	{"name": "bottom", "valueDefault": "false", "type": "boolean", "description": "Aligns the component towards the bottom."},
+	{"name": "color", "valueDefault": "primary", "type": "string", "description": "Applies specified color to the control - it can be the name of material color (for example success or purple) or css color (#033 or rgba(255, 0, 0, 0.5)). You can find list of built in classes on the colors page."},
+	{"name": "left", "valueDefault": "false", "type": "boolean", "description": "Aligns the component towards the left."},
+	{"name": "mode", "valueDefault": "undefined", "type": "string", "description": "Sets the transition mode (does not apply to transition-group). You can find more information on the Vue documentation for transition modes."},
+	{"name": "origin", "valueDefault": "undefined", "type": "string", "description": "Sets the transition origin on the element. You can find more information on the MDN documentation for transition origin."},
+	{"name": "overlap", "valueDefault": "false", "type": "boolean", "description": "Overlaps the slotted content on top of the component."},
+	{"name": "transition", "valueDefault": "fab-transition", "type": "string", "description": "Sets the component transition. Can be one of the built in transitions or one your own."},
+	{"name": "value", "valueDefault": "true", "type": "any", "description": "Controls whether the component is visible or hidden."}
+]

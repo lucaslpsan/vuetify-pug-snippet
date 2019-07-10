@@ -1,0 +1,20 @@
+[
+	{"name": "color", "valueDefault": "undefined", "type": "string", "description": "Applies specified color to the control - it can be the name of material color (for example success or purple) or css color (#033 or rgba(255, 0, 0, 0.5)). You can find list of built in classes on the colors page."},
+	{"name": "dark", "valueDefault": "false", "type": "boolean", "description": "Applies the dark theme variant to the component. You can find more information on the Material Design documentation for dark themes."},
+	{"name": "elevation", "valueDefault": "undefined", "type": "number | string", "description": "Designates an elevation applied to the component between 0 and 24. You can find more information on the elevation page."},
+	{"name": "height", "valueDefault": "undefined", "type": "number | string", "description": "Sets the height for the component."},
+	{"name": "icon", "valueDefault": "undefined", "type": "string", "description": "Designates a specific icon."},
+	{"name": "icon-color", "valueDefault": "undefined", "type": "string", "description": "Designates a specific icon color."},
+	{"name": "light", "valueDefault": "false", "type": "boolean", "description": "Applies the light theme variant to the component."},
+	{"name": "max-height", "valueDefault": "undefined", "type": "number | string", "description": "Sets the maximum height for the component."},
+	{"name": "max-width", "valueDefault": "undefined", "type": "number | string", "description": "Sets the maximum width for the component."},
+	{"name": "min-height", "valueDefault": "undefined", "type": "number | string", "description": "Sets the minimum height for the component."},
+	{"name": "min-width", "valueDefault": "undefined", "type": "number | string", "description": "Sets the minimum width for the component."},
+	{"name": "mobile-break-point", "valueDefault": "960", "type": "number | string", "description": "Sets the designated mobile breakpoint for the component. This will apply alternate styles for mobile devices."},
+	{"name": "single-line", "valueDefault": "false", "type": "boolean", "description": "Forces the banner onto a single line."},
+	{"name": "sticky", "valueDefault": "false", "type": "boolean", "description": "Applies position: sticky to the component (Evergreen browsers only). You can find more information on the MDN documentation for sticky position."},
+	{"name": "tag", "valueDefault": "div", "type": "string", "description": "Specify a custom tag used on the root element."},
+	{"name": "tile", "valueDefault": "true", "type": "boolean", "description": "Removes the component's border-radius."},
+	{"name": "value", "valueDefault": "true", "type": "boolean", "description": "Controls whether the component is visible or hidden."},
+	{"name": "width", "valueDefault": "undefined", "type": "number | string", "description": "Sets the width for the component."}
+]

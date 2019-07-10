@@ -1,0 +1,7 @@
+[
+	{"name": "dark", "valueDefault": "false", "type": "boolean", "description": "Applies the dark theme variant to the component. You can find more information on the Material Design documentation for dark themes."},
+	{"name": "divider", "valueDefault": "/", "type": "string", "description": "Specifies the dividing character between items."},
+	{"name": "items", "valueDefault": "[]", "type": "array", "description": "An array of objects for each breadcrumb."},
+	{"name": "large", "valueDefault": "false", "type": "boolean", "description": "Increase the font-size of the breadcrumb item text to 16px (14px default)."},
+	{"name": "light", "valueDefault": "false", "type": "boolean", "description": "Applies the light theme variant to the component."}
+]

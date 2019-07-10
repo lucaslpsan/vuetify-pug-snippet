@@ -18,7 +18,7 @@ VSCode Snippet for the Vuetify framework using Pug. Type faster with:
 > From version 0.5.0 the snippet was redone to version 2 of Vuetify. New possibilities, components and benefits. A new structure was made for the snippet.
 
 - Created from Vuetify v2.0.0-beta.5 and Vue 2.
-- More than 365 snippets.
+- More than 420 snippets.
 - All components of Vuetify 2.
 - Now the snippets will have a more friendly description, following the official documentation (in progress).
 
@@ -31,7 +31,7 @@ Auto Completion
 Friendly Description
 ![example](https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/example-description.png)
 
-## Comparison Tags HTML vs Pug
+## Comparation Tags HTML vs Pug
 <p>
     <img width=32% src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/code-result.png" >
     <img width=33% src="https://raw.githubusercontent.com/lucaslpsan/vuetify-pug-snippet/master/assets/code-html.png">

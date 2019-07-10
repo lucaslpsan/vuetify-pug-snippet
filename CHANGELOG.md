@@ -3,6 +3,14 @@
 ## [Unreleased]
 - Improvements
 
+## [0.6.0] - 2019-07-10
+### Added
+- 56 snippets
+- More than 15 descriptions
+
+### Changed
+- More than 60 descriptions
+
 ## [0.5.1] - 2019-07-08
 ### Changed
 - The icon has been moved to the root of the project. This way, vsce stops packaging the /assets folder in .vsix.

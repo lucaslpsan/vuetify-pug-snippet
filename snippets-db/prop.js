@@ -12,13 +12,14 @@ const fs = require("fs");
 const sqlite3 = require('sqlite3').verbose();
 
 // Open "props of components".json
-const jsonData = JSON.parse(fs.readFileSync("json/alert.json", "utf8"));
+const jsonData = JSON.parse(fs.readFileSync("json/chips.json", "utf8"));
 // Open snippets.db
 let db = new sqlite3.Database('db/snippets.db');
 
 let body;
 let prefix;
 let descriptionJson;
+let defaultText;
 
 jsonData.forEach(element => {
   // Search for prop by name (primary key).
@@ -33,10 +34,11 @@ jsonData.forEach(element => {
     if (row && !row.description.toLowerCase().includes(descriptionJson)) {
       return console.log(`\x1b[31mDiferent description => ${row.name}\x1b[0m`);
     }else if (!row) { // If prop is not found, format the values to insert.
+      defaultText = element.valueDefault.replace((a) => { return a.toUpperCase(); }).replace(/(\')/g, '');
       if (element.type == 'boolean') { // If type is boolean, format the body with only the name and a space at the end.
         body = element.name + ' $0';
       } else { // If you do not format the body with = ${default value} $0
-        body = element.name + `=\\""\${1:${element.valueDefault}}\\"" $0`;
+        body = element.name + `=\\""\${1:${defaultText}}\\"" $0`;
       }
       // Constructs a prefix; removes hyphens makes the next letter in upper case.
       prefix = element.name.toLowerCase().replace(/(?:-)\S/g, function (a) { return a.toUpperCase(); }).replace(/(-)/g, '');
@@ -47,7 +49,7 @@ jsonData.forEach(element => {
       //             element.description);
 
       // Mounts the insert and run
-      db.run(`INSERT INTO props (name, prefix, "default", body, type, description) VALUES ("${element.name}","${prefix}","${element.valueDefault}","${body}","${element.type}","${element.description}")`,
+      db.run(`INSERT INTO props (name, prefix, "default", body, type, description) VALUES ("${element.name}","${prefix}","${defaultText}","${body}","${element.type}","${element.description}")`,
         function (err) {
           if (err) {
             return console.error(err.message);

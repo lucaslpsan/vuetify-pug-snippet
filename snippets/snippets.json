@@ -7,12 +7,12 @@
 	"Vuetify v-app":{
         "prefix": "vApp",
         "body": [ "v-app", "\t$0" ],
-        "description": "Component"
+        "description": "The v-app component is REQUIRED for all applications. This is the mount point for many of Vuetify's components and functionality and ensures that. It propagates the default application variant (dark/light) to children components and also ensures proper cross-browser support for certain click events in browsers like Safari and should only be used within your application ONCE."
     },
 	"Vuetify v-app-bar":{
         "prefix": "vAppBar",
         "body": [ "v-app-bar", "\t$0" ],
-        "description": "Component"
+        "description": "The v-app-bar component is pivotal to any graphical user interface (GUI), as it generally is the primary source of site navigation. The app-bar component works great in conjunction with a v-navigation-drawer for providing site navigation in your application."
     },
 	"Vuetify v-app-bar-nav-icon":{
         "prefix": "vAppBarNavIcon",
@@ -27,32 +27,32 @@
 	"Vuetify v-avatar":{
         "prefix": "vAvatar",
         "body": [ "v-avatar", "\t$0" ],
-        "description": "Component"
+        "description": "The v-avatar component is typically used to display circular user profile pictures. This component will allow you to dynamically size and add a border radius of responsive images, icons, and text. A tile variation is available for displaying an avatar without border radius."
     },
 	"Vuetify v-badge":{
         "prefix": "vBadge",
         "body": [ "v-badge", "\t$0" ],
-        "description": "Component"
+        "description": "The v-badge component superscripts or subscripts an avatar-like icon or text onto content to highlight information to a user or to just draw attention to a specific element. Content within the badge usually contains numbers or icons."
     },
 	"Vuetify v-banner":{
         "prefix": "vBanner",
         "body": [ "v-banner( $0 )", "\t" ],
-        "description": "Component"
+        "description": "The v-banner component is used as middle-interruptive message to user with 1-2 actions. It comes in 2 variations, single-line and multi-line (implicit). These can have icons which you can use with your message and actions."
     },
 	"Vuetify v-bottom-navigation":{
         "prefix": "vBottomNavigation",
         "body": [ "v-bottom-navigation", "\t$0" ],
-        "description": "Component"
+        "description": "The v-bottom-navigation is an alternative to the sidebar. It is primarily used on mobile and comes in two variants, icons and text, and shift."
     },
 	"Vuetify v-bottom-sheet":{
         "prefix": "vBottomSheet",
         "body": [ "v-bottom-sheet", "\t$0" ],
-        "description": "Component"
+        "description": "The bottom sheet is a modified v-dialog that slides from the bottom of the screen, similar to a v-bottom-navigation. Whereas a bottom navigation component is for buttons and specific application level actions, a bottom sheet can contain anything."
     },
 	"Vuetify v-breadcrumbs":{
         "prefix": "vBreadcrumbs",
         "body": [ "v-breadcrumbs", "\t$0" ],
-        "description": "Component"
+        "description": "The v-breadcrumbs component is a navigational helper for pages. It can accept a Material Icons icon or text characters as a divider. An array of objects can be passed to the items property of the component. Additionally, a scoped slot exists for more control of the breadcrumbs, either utilizing v-breadcrumbs-item or other custom markup."
     },
 	"Vuetify v-breadcrumbs-divider":{
         "prefix": "vBreadcrumbsDivider",
@@ -77,17 +77,17 @@
 	"Vuetify v-btn":{
         "prefix": "vBtn",
         "body": [ "v-btn( @click=\"${method}\" )", "\t$0" ],
-        "description": "Component"
+        "description": "The v-btn component replaces the standard html button with a material design theme and a multitude of options. Any color helper class can be used to alter the background or text color."
     },
 	"Vuetify v-btn icon":{
         "prefix": "vBtnIcon",
         "body": [ "v-btn( icon )", "\tv-icon ${add}$0" ],
-        "description": "null"
+        "description": "The v-btn component replaces the standard html button with a material design theme and a multitude of options. Any color helper class can be used to alter the background or text color."
     },
 	"Vuetify v-btn with color":{
         "prefix": "vBtnColor",
         "body": [ "v-btn(@click=\"${method}\" color=\"${primary}\")", "\t$0" ],
-        "description": "Component"
+        "description": "The v-btn component replaces the standard html button with a material design theme and a multitude of options. Any color helper class can be used to alter the background or text color."
     },
 	"Vuetify v-btn-toggle":{
         "prefix": "vBtnToggle",
@@ -97,7 +97,7 @@
 	"Vuetify v-calendar":{
         "prefix": "vCalendar",
         "body": [ "v-calendar( $0 )", "\t" ],
-        "description": "Component"
+        "description": "The v-calendar component is used to display information in a daily, weekly, or monthly view. The daily view has slots for all day or timed elements, and the weekly and monthly view has a slot for each day. Optionally you can pass in an array of events and they will be rendered over the appropriate days and times."
     },
 	"Vuetify v-calendar-daily":{
         "prefix": "vCalendarDaily",
@@ -117,27 +117,27 @@
 	"Vuetify v-card":{
         "prefix": "vCard",
         "body": [ "v-card( $0 )", "\t" ],
-        "description": "Component"
+        "description": "The v-card component is a versatile component that can be used for anything from a panel to a static image. The card component has numerous helper components to make markup as easy as possible. Components that have no listed options use Vue's functional component option for faster rendering and serve as markup sugar to make building easier."
     },
 	"Vuetify v-card-actions":{
         "prefix": "vCardActions",
         "body": [ "v-card-actions", "\t$0" ],
-        "description": "Functional Components"
+        "description": "The container used for placing actions for a card, such as v-btn or v-menu. Also applies special margin to buttons so that they properly line up with other card content areas."
     },
 	"Vuetify v-card-text":{
         "prefix": "vCardText",
         "body": "v-card-text ",
-        "description": "Functional Components"
+        "description": "Primarily used for text content in a card. Applies padding for text, reduces its font-size to .875rem and changes its color to grey."
     },
 	"Vuetify v-card-title":{
         "prefix": "vCardTitle",
         "body": [ "v-card-title", "\t$0" ],
-        "description": "Functional Components"
+        "description": "Provides a default font-size and padding for card titles. Font-size can be overwritten with typography classes, (/styles/typography)."
     },
 	"Vuetify v-carousel":{
         "prefix": "vCarousel",
         "body": [ "v-carousel", "\t$0" ],
-        "description": "Component"
+        "description": "The v-carousel component is used to display large numbers of visual content on a rotating timer."
     },
 	"Vuetify v-carousel-item":{
         "prefix": "vCarouselItem",
@@ -162,12 +162,12 @@
 	"Vuetify v-chip":{
         "prefix": "vChip",
         "body": [ "v-chip", "\t$0" ],
-        "description": "Component"
+        "description": "The v-chip component is used to convey small pieces of information. Using the close property, the chip becomes interactive, allowing user interaction. This component is used by the v-chip-group for advanced selection options."
     },
 	"Vuetify v-chip-group":{
         "prefix": "vChipGroup",
         "body": [ "v-chip-group", "\t$0" ],
-        "description": "Component"
+        "description": "The v-chip-group supercharges the v-chip component by providing groupable functionality. It is used for creating groups of selections using chips."
     },
 	"Vuetify v-color-picker":{
         "prefix": "vColorPicker",
@@ -532,7 +532,7 @@
 	"Vuetify v-responsive":{
         "prefix": "vResponsive",
         "body": [ "v-responsive", "\t$0" ],
-        "description": "Component"
+        "description": "The v-responsive component can be used to fix any section to a specific aspect ratio"
     },
 	"Vuetify v-row":{
         "prefix": "vRow",
@@ -642,7 +642,7 @@
 	"Vuetify v-speed-dial":{
         "prefix": "vSpeedDial",
         "body": [ "v-speed-dial", "\t$0" ],
-        "description": "Component"
+        "description": "The v-btn component can be used as a Floating action button. This provides an application a main point of action. Combined with the v-speed-dial component, you can create a diverse set of functions available for your users."
     },
 	"Vuetify v-stepper":{
         "prefix": "vStepper",
@@ -682,7 +682,7 @@
 	"Vuetify v-system-bar":{
         "prefix": "vSystemBar",
         "body": [ "v-system-bar", "\t$0" ],
-        "description": "Component"
+        "description": "The v-system-bar component can be used for displaying some statuses to user. It looks like Android system bar and can contain icons, spacers and some amount of text."
     },
 	"Vuetify v-tab":{
         "prefix": "vTab",
@@ -762,7 +762,7 @@
 	"Vuetify v-toolbar":{
         "prefix": "vToolbar",
         "body": [ "v-toolbar( $0 )", "\t" ],
-        "description": "Component"
+        "description": "The v-toolbar component is pivotal to any gui, as it generally is the primary source of site navigation. The toolbar component works great in conjunction with v-navigation-drawer and v-card."
     },
 	"Vuetify v-toolbar-items":{
         "prefix": "vToolbarItems",
@@ -812,7 +812,7 @@
 	"Vuetify :aspectRatio":{
         "prefix": ":aspectRatio",
         "body": ":aspect-ratio=\"${1:16/9}\" $0",
-        "description": "Sets a base aspect ratio, calculated as width/height. This will only set a minimum height, the component can still grow if it has lots of content"
+        "description": "Sets a base aspect ratio, calculated as width/height. This will only set a minimum height, the component can still grow if it has a lot of content."
     },
 	"Vuetify :key":{
         "prefix": ":key",
@@ -887,12 +887,22 @@
 	"Vuetify absolute":{
         "prefix": "absolute",
         "body": "absolute $0",
-        "description": "Position the element absolutely"
+        "description": "Applies position: absolute to the component."
+    },
+	"Vuetify activator":{
+        "prefix": "activator",
+        "body": "activator=\"${1:undefined}\" $0",
+        "description": "Designate a custom activator when the activator slot is not used. String can be any valid querySelector and Object can be any valid Node."
+    },
+	"Vuetify active":{
+        "prefix": "active",
+        "body": "active $0",
+        "description": "Components.Chips."
     },
 	"Vuetify active-class":{
         "prefix": "activeClass",
         "body": "active-class=\"${1:v-item--active}\" $0",
-        "description": "Class bound when component is active. warning Depending upon the component, this could cause side effects. If you need to add a custom class on top of a default, just do active-class=\"default-class your-class\""
+        "description": "Class bound when component is active. warning Depending upon the component, this could cause side effects. If you need to add a custom class on top of a default, just do active-class=\"default-class your-class\". For example in v-bottom-navigation The class applied to a v-btn when activated Or v-breadcrumbs-item Configure the active CSS class applied when the link is active. You can find more information about the active-class prop on the vue-router documentation."
     },
 	"Vuetify align-baseline ":{
         "prefix": "alignBaseline",
@@ -952,17 +962,27 @@
 	"Vuetify app":{
         "prefix": "app",
         "body": "app $0",
-        "description": "Designates the component as part of the application layout. Used for dynamically adjusting content sizing. Components using this prop should reside outside of v-content to function properly"
+        "description": "Designates the component as part of the application layout. Used for dynamically adjusting content sizing. Components using this prop should reside outside of v-content component to function properly. You can more information about layouts on the application page."
     },
 	"Vuetify append":{
         "prefix": "append",
         "body": "append $0",
-        "description": "Vue Router router-link prop"
+        "description": "Setting append prop always appends the relative path to the current path. You can find more information about the append prop on the vue-router documentation."
     },
 	"Vuetify aspect-ratio":{
         "prefix": "aspectRatio",
         "body": "aspect-ratio=\"${1:undefined}\" $0",
         "description": "Calculated as width/height, so for a 1920x1080px image this will be 1.7778. Will be calculated automatically if omitted"
+    },
+	"Vuetify attach":{
+        "prefix": "attach",
+        "body": "attach=\"${1:false}\" $0",
+        "description": "Specifies which DOM element that this component should detach to.String can be any valid querySelector and Object can be any valid Node. This will attach to the root v-app component by default."
+    },
+	"Vuetify background-color":{
+        "prefix": "backgroundColor",
+        "body": "background-color=\"${1:undefined}\" $0",
+        "description": "Changes the background-color for the component."
     },
 	"Vuetify block":{
         "prefix": "block",
@@ -972,12 +992,12 @@
 	"Vuetify border":{
         "prefix": "border",
         "body": "border=\"${1|top,right,down,left|}\" $0",
-        "description": "Puts a border on the element. Accepts top | right | bottom | left."
+        "description": "Puts a border on the alert. Accepts top | right | bottom | left."
     },
 	"Vuetify bottom":{
         "prefix": "bottom",
         "body": "bottom $0",
-        "description": "Align the component towards the bottom"
+        "description": "Aligns the component towards the bottom."
     },
 	"Vuetify card":{
         "prefix": "card",
@@ -992,27 +1012,47 @@
 	"Vuetify clipped-left":{
         "prefix": "clippedLeft",
         "body": "clipped-left $0",
-        "description": "Designates that the applications v-navigation-drawer is clipped on the left side of the toolbar"
+        "description": "Designates that the application's v-navigation-drawer that is positioned on the left is below the app-bar."
     },
 	"Vuetify clipped-right":{
         "prefix": "clippedRight",
         "body": "clipped-right $0",
-        "description": "Designates that the applications v-navigation-drawer is clipped on the right side of the toolbar"
+        "description": "Designates that the application's v-navigation-drawer that is positioned on the right is below the app-bar."
+    },
+	"Vuetify close":{
+        "prefix": "close",
+        "body": "close $0",
+        "description": "Adds remove button"
+    },
+	"Vuetify close-icon":{
+        "prefix": "closeIcon",
+        "body": "close-icon=\"${1:$vuetify.icons.delete}\" $0",
+        "description": "Change the default icon used for close chips"
     },
 	"Vuetify close-label":{
         "prefix": "closeLabel",
         "body": "close-label=\"${1:$vuetify.close}\" $0",
-        "description": "Text used for aria-label on dismissible alerts."
+        "description": "Text used for aria-label on dismissible alerts. Can also be customizing globally in Internationalization."
+    },
+	"Vuetify collapse":{
+        "prefix": "collapse",
+        "body": "collapse $0",
+        "description": "Puts the toolbar into a collapsed state reducing its maximum width."
+    },
+	"Vuetify collapse-on-scroll":{
+        "prefix": "collapseOnScroll",
+        "body": "collapse-on-scroll $0",
+        "description": "Puts the app-bar into a collapsed state when scrolling."
     },
 	"Vuetify color":{
         "prefix": "color",
         "body": "color=\"${primary}\" $0",
-        "description": "Applies specified color to the control - it can be the name of material color (for example success or purple) or css color (#033 or rgba(255, 0, 0, 0.5))"
+        "description": "Applies specified color to the control - it can be the name of material color (for example success or purple) or css color (#033 or rgba(255, 0, 0, 0.5)). You can find list of built in classes on the colors page."
     },
 	"Vuetify colored-border":{
         "prefix": "coloredBorder",
         "body": "colored-border $0",
-        "description": "Swap color from the background to the border for an alternative border look."
+        "description": "Applies the defined color to the alert's border."
     },
 	"Vuetify column":{
         "prefix": "column",
@@ -1024,15 +1064,25 @@
         "body": "contain $0",
         "description": "Change the background-size to contain."
     },
+	"Vuetify content-class":{
+        "prefix": "contentClass",
+        "body": "content-class=\"${1:undefined}\" $0",
+        "description": "Applies a custom class to the detached element. This is useful because the content is moved to the beginning of the v-app component (unless the attach prop is provided) and is not targettable by classes passed directly on the component."
+    },
+	"Vuetify continuous":{
+        "prefix": "continuous",
+        "body": "continuous $0",
+        "description": "If true, window will 'wrap around' from the last item to the first, and from the first item to the last"
+    },
 	"Vuetify cycle":{
         "prefix": "cycle",
         "body": "cycle $0",
-        "description": "Determines if carousel should cycle through images"
+        "description": "Determines if the carousel should cycle through images."
     },
 	"Vuetify dark":{
         "prefix": "dark",
         "body": "dark $0",
-        "description": "Applies the dark theme variant"
+        "description": "Applies the dark theme variant to the component. You can find more information on the Material Design documentation for dark themes."
     },
 	"Vuetify day-format":{
         "prefix": "dayFormat",
@@ -1047,7 +1097,7 @@
 	"Vuetify dense":{
         "prefix": "dense",
         "body": "dense $0",
-        "description": "Reduces the height of the toolbar content and extension OR Hides icon and decreases component height for a more simplistic alert."
+        "description": "Hides the alert icon and decreases component's height OR Reduces the height of the toolbar content to 48px (96px when using the prominent prop)."
     },
 	"Vuetify depressed":{
         "prefix": "depressed",
@@ -1062,12 +1112,12 @@
 	"Vuetify disabled":{
         "prefix": "disabled",
         "body": "disabled $0",
-        "description": "Route item is disabled or Disables the ability to open the dialog"
+        "description": "Route item is disabled or Disables the ability to open the component OR in v-breadcrumbs-item Removes the ability to click or target the component. In v-chip Disables the chip, making it un-selectable"
     },
 	"Vuetify dismissible":{
         "prefix": "dismissible",
         "body": "dismissible $0",
-        "description": "Specifies that the Alert can be closed"
+        "description": "Adds a close icon that can hide the alert."
     },
 	"Vuetify display":{
         "prefix": "display",
@@ -1077,47 +1127,137 @@
 	"Vuetify divider":{
         "prefix": "divider",
         "body": "divider=\"${1:/}\" $0",
-        "description": "Specifies the dividing character"
+        "description": "Specifies the dividing character between items."
+    },
+	"Vuetify draggable":{
+        "prefix": "draggable",
+        "body": "draggable $0",
+        "description": "Makes the chip draggable"
+    },
+	"Vuetify eager":{
+        "prefix": "eager",
+        "body": "eager $0",
+        "description": "Will force the components content to render on mounted. This is useful if you have content that will not be rendered in the DOM that you want crawled for SEO."
+    },
+	"Vuetify elevate-on-scroll":{
+        "prefix": "elevateOnScroll",
+        "body": "elevate-on-scroll $0",
+        "description": "Elevates the app-bar when scrolling."
     },
 	"Vuetify elevation":{
         "prefix": "elevation",
         "body": "elevation=\"${1:0}\" $0",
-        "description": "Designates an elevation between 0 and 24"
+        "description": "Designates an elevation applied to the component between 0 and 24. You can find more information on the elevation page."
     },
 	"Vuetify end":{
         "prefix": "end",
         "body": "end=\"${1:0000-00-00}\" $0",
         "description": "The ending date on the calendar (inclusive) in the format of YYYY-MM-DD. This may be ignored depending on the type of the calendar."
     },
+	"Vuetify event-color":{
+        "prefix": "eventColor",
+        "body": "event-color=\"${1:secondary}\" $0",
+        "description": "A background color for all events or a function which accepts an event object passed to the calendar to return a color."
+    },
+	"Vuetify event-end":{
+        "prefix": "eventEnd",
+        "body": "event-end=\"${1:end}\" $0",
+        "description": "Set property of event's end timestamp."
+    },
+	"Vuetify event-height":{
+        "prefix": "eventHeight",
+        "body": "event-height=\"${1:20}\" $0",
+        "description": "The height of an event in pixels in the month view and at the top of the day views."
+    },
+	"Vuetify event-margin-bottom":{
+        "prefix": "eventMarginBottom",
+        "body": "event-margin-bottom=\"${1:1}\" $0",
+        "description": "Margin bottom for event"
+    },
+	"Vuetify event-more":{
+        "prefix": "eventMore",
+        "body": "event-more $0",
+        "description": "Whether the more 'button' is displayed on a calendar with too many events in a given day. It will say something like '5 more' and when clicked generates a click:more event."
+    },
+	"Vuetify event-more-text":{
+        "prefix": "eventMoreText",
+        "body": "event-more-text=\"${1:$vuetify.calendar.moreEvents}\" $0",
+        "description": "The text to display in the more 'button' given the number of hidden events."
+    },
+	"Vuetify event-name":{
+        "prefix": "eventName",
+        "body": "event-name=\"${1:name}\" $0",
+        "description": "Set property of event's displayed name, or a function which accepts an event object passed to the calendar as the first argument and a flag signalling whether the name is for a timed event (true) or an event over a day."
+    },
+	"Vuetify event-overlap-threshold":{
+        "prefix": "eventOverlapThreshold",
+        "body": "event-overlap-threshold=\"${1:60}\" $0",
+        "description": "A value in minutes that's used to determine whether two timed events should be placed in column beside each other or should be treated as slightly overlapping events."
+    },
+	"Vuetify event-ripple":{
+        "prefix": "eventRipple",
+        "body": "event-ripple=\"${1:undefined}\" $0",
+        "description": "Applies the v-ripple directive."
+    },
+	"Vuetify event-start":{
+        "prefix": "eventStart",
+        "body": "event-start=\"${1:start}\" $0",
+        "description": "Set property of event's start timestamp."
+    },
+	"Vuetify event-text-color":{
+        "prefix": "eventTextColor",
+        "body": "event-text-color=\"${1:white}\" $0",
+        "description": "A text color for all events or a function which accepts an event object passed to the calendar to return a color."
+    },
+	"Vuetify events":{
+        "prefix": "events",
+        "body": "events=\"${1:[]}\" $0",
+        "description": "An array of event objects with a property for a start timestamp and optionally a name and end timestamp. If an end timestamp is not given, the value of start will be used. If no name is given, you must provide an implementation for the event slot."
+    },
 	"Vuetify exact":{
         "prefix": "exact",
         "body": "exact $0",
-        "description": "Exactly match the link. Without this, '/' will match every route"
+        "description": "Exactly match the link. Without this, '/' will match every route. You can find more information about the exact prop on the vue-router documentation."
     },
 	"Vuetify exact-active-class":{
         "prefix": "exactActiveClass",
         "body": "exact-active-class=\"${undefined}\" $0",
-        "description": "Vue Router router-link prop"
+        "description": "Configure the active CSS class applied when the link is active with exact match. You can find more information about the exact-active-class prop on the vue-router documentation."
     },
 	"Vuetify extended":{
         "prefix": "extended",
         "body": "extended $0",
-        "description": "Force the toolbar to generate the extension without using the slot"
+        "description": "Use this prop to increase the height of the toolbar without using the extension slot for adding content. May be used in conjunction with the extension-height prop, and any of the other props that affect the height of the toolbar, e.g. prominent, dense, etc., WITH THE EXCEPTION of height."
     },
 	"Vuetify extension-height":{
         "prefix": "extensionHeight",
-        "body": "extension-height=\"${undefined}\" $0",
-        "description": "Specify an explicit height for the extended slot"
+        "body": "extension-height=\"${48}\" $0",
+        "description": "Specify an explicit height for the extension slot. "
     },
 	"Vuetify fab":{
         "prefix": "fab",
         "body": "fab $0",
-        "description": "Makes button round"
+        "description": "Designates the button as a floating-action-button - round."
+    },
+	"Vuetify fade-img-on-scroll":{
+        "prefix": "fadeImgOnScroll",
+        "body": "fade-img-on-scroll $0",
+        "description": "When using the src prop or img scoped slot, will fade the image when scrolling."
     },
 	"Vuetify fill-height ":{
         "prefix": "fillHeight",
         "body": "fill-height ",
         "description": "Make sure that col element height is filled with parent and child. Important for Safari/Firefox if children is column element."
+    },
+	"Vuetify filter":{
+        "prefix": "filter",
+        "body": "filter $0",
+        "description": "Displays a selection icon when selected"
+    },
+	"Vuetify filter-icon":{
+        "prefix": "filterIcon",
+        "body": "filter-icon=\"${1:$vuetify.icons.complete}\" $0",
+        "description": "Change the default icon used for filter chips"
     },
 	"Vuetify first-interval":{
         "prefix": "firstInterval",
@@ -1127,17 +1267,17 @@
 	"Vuetify fixed":{
         "prefix": "fixed",
         "body": "fixed $0",
-        "description": "Position the element fixed"
+        "description": "Applies position: fixed to the component."
     },
 	"Vuetify flat":{
         "prefix": "flat",
         "body": "flat $0",
-        "description": "Removes the button background color or Removes card box shadow"
+        "description": "Removes the button background color or Removes the card's elevation or Removes the toolbar's box-shadow."
     },
 	"Vuetify floating":{
         "prefix": "floating",
         "body": "floating $0",
-        "description": "Makes the toolbar float inline"
+        "description": "Applies display: inline-flex to the component."
     },
 	"Vuetify fluid":{
         "prefix": "fluid",
@@ -1147,7 +1287,12 @@
 	"Vuetify full-width":{
         "prefix": "fullWidth",
         "body": "full-width $0",
-        "description": "Forces 100% width"
+        "description": "Forces the dialog to expand 100% of available width."
+    },
+	"Vuetify fullscreen":{
+        "prefix": "fullscreen",
+        "body": "fullscreen $0",
+        "description": "Changes layout for fullscreen display."
     },
 	"Vuetify gradient":{
         "prefix": "gradient ",
@@ -1162,62 +1307,82 @@
 	"Vuetify grow":{
         "prefix": "grow",
         "body": "grow $0",
-        "description": "Apply flex-grow: 1"
+        "description": "Force v-btns to take up all available space."
     },
 	"Vuetify height":{
         "prefix": "height",
         "body": "height=\"${1:56}\" $0",
-        "description": "Sets the component height"
+        "description": "Sets the height for the component AND in v-toolbar overrides the heights imposed by other props, e.g. prominent, dense, extended, etc.."
     },
 	"Vuetify hide-controls":{
         "prefix": "hideControls",
         "body": "hide-controls $0",
         "description": "Hides the navigation controls"
     },
+	"Vuetify hide-delimiter-background":{
+        "prefix": "hideDelimiterBackground",
+        "body": "hide-delimiter-background $0",
+        "description": "Hides the bottom delimiter background."
+    },
 	"Vuetify hide-delimiters":{
         "prefix": "hideDelimiters",
         "body": "hide-delimiters $0",
-        "description": "Hides the panel with carousel delimiters"
+        "description": "Hides the carousel's bottom delimiters."
     },
 	"Vuetify hide-header":{
         "prefix": "hideHeader",
         "body": "hide-header $0",
         "description": "If the header at the top of the day view should be visible."
     },
+	"Vuetify hide-on-scroll":{
+        "prefix": "hideOnScroll",
+        "body": "hide-on-scroll $0",
+        "description": "Hides the app-bar when scrolling. Will still show the extension slot OR in v-bottom-navigation Will transition the navigation off screen when scrolling up."
+    },
 	"Vuetify hide-overlay":{
         "prefix": "hideOverlay",
         "body": "hide-overlay $0",
-        "description": "Hide the display of the overlay"
+        "description": "Hides the display of the overlay."
+    },
+	"Vuetify horizontal":{
+        "prefix": "horizontal",
+        "body": "horizontal $0",
+        "description": "Uses an alternative horizontal styling for v-btn."
     },
 	"Vuetify hover":{
         "prefix": "hover",
         "body": "hover $0",
-        "description": "Apply a higher elevation on hover"
+        "description": "Will apply an elevation of 4dp when hovered (default 2dp). You can find more information on the elevation page."
     },
 	"Vuetify href":{
         "prefix": "href",
         "body": "href=\"${undefined}\" $0",
-        "description": "Will designate the component tag to <a>"
+        "description": "Designates the component as anchor and applies the href attribute."
     },
 	"Vuetify icon":{
         "prefix": "icon",
         "body": "icon=\"${undefined}\" $0",
-        "description": "Designates a specific icon"
+        "description": "Designates a specific icon OR in v-btn Designates the button as icon - round and flat"
     },
 	"Vuetify icon button":{
         "prefix": "icon",
         "body": "icon $0",
         "description": "Designates the button as icon - round and flat"
     },
+	"Vuetify icon-color":{
+        "prefix": "iconColor",
+        "body": "icon-color=\"${1:undefined}\" $0",
+        "description": "Designates a specific icon color."
+    },
 	"Vuetify id":{
         "prefix": "id",
         "body": "id=\"${id}\"",
-        "description": "Sets the DOM id on the component"
+        "description": "Sets the DOM id on the component."
     },
 	"Vuetify img":{
         "prefix": "img",
         "body": "img=\"${1:undefined}\" $0",
-        "description": "Specifies an image background"
+        "description": "Specifies an image background for the card. For more advanced implementations, it is recommended that you use the v-img component."
     },
 	"Vuetify input":{
         "prefix": "input",
@@ -1227,17 +1392,22 @@
 	"Vuetify input-value":{
         "prefix": "inputValue",
         "body": "input-value=\"${undefined}\" $0",
-        "description": "Controls the button active state"
+        "description": "Controls whether the component is visible or hidden. Supports the .sync modifier. In v-btn Controls the button's active state. In v-chip Designates whether the component is selected, highlighting the chip."
     },
 	"Vuetify inset":{
         "prefix": "inset",
         "body": "inset $0",
-        "description": "Reduces the dialog content maximum width to 70%"
+        "description": "Reduces the sheet content maximum width to 70%."
+    },
+	"Vuetify internal-activator":{
+        "prefix": "internalActivator",
+        "body": "internal-activator $0",
+        "description": "Designates whether the supplied activator prop is inside the component."
     },
 	"Vuetify interval":{
         "prefix": "interval",
         "body": "interval=\"${1:6000}\" $0",
-        "description": "The duration between image cycles"
+        "description": "The duration between image cycles. Requires the cycle prop."
     },
 	"Vuetify interval-count":{
         "prefix": "intervalCount",
@@ -1267,12 +1437,12 @@
 	"Vuetify inverted-scroll":{
         "prefix": "invertedScroll",
         "body": "inverted-scroll=\"${undefined}\" $0",
-        "description": "Will slide out of view when scrolling down and back into view when scrolling up"
+        "description": "Will slide out of view when scrolling down and back into view when scrolling up OR Hides the app-bar when scrolling down and displays it when scrolling up."
     },
 	"Vuetify items":{
         "prefix": "items",
         "body": "items=\"[$1]\" $0",
-        "description": "An array of objects describing each breadcrumb. See v-breadcrumbs-item API section for all object properties. Use text property for the breadcrumb text."
+        "description": "An array of objects for each breadcrumb. See v-breadcrumbs-item API section for all object properties. Use text property for the breadcrumb text."
     },
 	"Vuetify justify-center ":{
         "prefix": "justifyCenter",
@@ -1299,10 +1469,15 @@
         "body": "justify-start ",
         "description": "Justify content to the start."
     },
+	"Vuetify label":{
+        "prefix": "label",
+        "body": "label $0",
+        "description": "Removes circle edges"
+    },
 	"Vuetify large":{
         "prefix": "large",
         "body": "large $0",
-        "description": "Large size button or Increase the font-size of the breadcrumb item text"
+        "description": "Increase the font-size of the breadcrumb item text to 16px (14px default) OR in v-btn Makes the component large."
     },
 	"Vuetify lazy":{
         "prefix": "lazy",
@@ -1317,7 +1492,7 @@
 	"Vuetify left":{
         "prefix": "left",
         "body": "left $0",
-        "description": "Align the component towards the left"
+        "description": "Designates that the avatar is on the left side of a component. This is hooked into by components such as v-chip and v-btn. OR Aligns the component towards the left. This should be used with the absolute or fixed props."
     },
 	"Vuetify lg":{
         "prefix": "lg",
@@ -1327,17 +1502,27 @@
 	"Vuetify light":{
         "prefix": "light",
         "body": "light $0",
-        "description": "Applies the light theme variant"
+        "description": "Applies the light theme variant to the component."
     },
 	"Vuetify lights-out":{
         "prefix": "lightsOut",
         "body": "lights-out $0",
         "description": "Reduces the system bar opacity"
     },
+	"Vuetify link":{
+        "prefix": "link",
+        "body": "link $0",
+        "description": "Designates that the component is a link. This is automatic when using the href or to prop."
+    },
+	"Vuetify loader-height":{
+        "prefix": "loaderHeight",
+        "body": "loader-height=\"${1:4}\" $0",
+        "description": "Specifies the height of the loader"
+    },
 	"Vuetify loading":{
         "prefix": "loading",
         "body": "loading $0",
-        "description": "Adds a loading icon animation"
+        "description": "Displays linear progress bar. Can either be a String which specifies which color is applied to the progress bar (any material color or theme color - primary, secondary, success, info, warning, error) or a Boolean which uses the component color (set by color prop - if it's supported by the component) or the primary color"
     },
 	"Vuetify locale":{
         "prefix": "locale",
@@ -1347,7 +1532,7 @@
 	"Vuetify mandatory":{
         "prefix": "mandatory",
         "body": "mandatory $0",
-        "description": "Forces a value to always be selected"
+        "description": "Forces a value to always be selected (if available)."
     },
 	"Vuetify manual-scroll":{
         "prefix": "manualScroll",
@@ -1362,7 +1547,7 @@
 	"Vuetify max":{
         "prefix": "max",
         "body": "max=\"${undefined}\" $0",
-        "description": "Sets maximum width"
+        "description": "Sets a maximum number of selections that can be made."
     },
 	"Vuetify max-days":{
         "prefix": "maxDays",
@@ -1372,12 +1557,12 @@
 	"Vuetify max-height":{
         "prefix": "maxHeight",
         "body": "max-height=\"${value}\" $0",
-        "description": "Sets the maximum height for the content"
+        "description": "Sets the maximum height for the component."
     },
 	"Vuetify max-width":{
         "prefix": "maxWidth",
         "body": "max-width=\"${auto}\" $0",
-        "description": "Sets the maximum width for the content OR sheet's container."
+        "description": "Sets the maximum width for the component."
     },
 	"Vuetify md":{
         "prefix": "md",
@@ -1387,7 +1572,7 @@
 	"Vuetify min-height":{
         "prefix": "minHeight",
         "body": "min-height=\"${value}\" $0",
-        "description": "Sets the minimum height for the content"
+        "description": "Sets the minimum height for the component."
     },
 	"Vuetify min-weeks":{
         "prefix": "minWeeks",
@@ -1397,12 +1582,17 @@
 	"Vuetify min-width":{
         "prefix": "minWidth",
         "body": "min-width=\"${value}\" $0",
-        "description": "Sets the minimum width for the content"
+        "description": "Sets the minimum width for the component."
+    },
+	"Vuetify mobile-break-point":{
+        "prefix": "mobileBreakPoint",
+        "body": "mobile-break-point=\"${1:960}\" $0",
+        "description": "Sets the designated mobile breakpoint for the component. This will apply alternate styles for mobile devices."
     },
 	"Vuetify mode":{
         "prefix": "mode",
         "body": "mode=\"${undefined}\" $0",
-        "description": "Sets the transition mode (does not apply to transition-group)"
+        "description": "Sets the transition mode (does not apply to transition-group). You can find more information on the Vue documentation for transition modes."
     },
 	"Vuetify month-format":{
         "prefix": "monthFormat",
@@ -1412,7 +1602,7 @@
 	"Vuetify multiple":{
         "prefix": "multiple",
         "body": "multiple $0",
-        "description": "Allows for multiple selections. Model used must be an Array"
+        "description": "Allow multiple selections. The value prop must be an array."
     },
 	"Vuetify name":{
         "prefix": "name",
@@ -1422,7 +1612,12 @@
 	"Vuetify next-icon":{
         "prefix": "nextIcon",
         "body": "next-icon=\"${1:$vuetify.icons.next}\" $0",
-        "description": "The displayed icon for forcing pagination to the next item"
+        "description": "Icon used for the 'next' button if show-arrows is true"
+    },
+	"Vuetify no-click-animation":{
+        "prefix": "noClickAnimation",
+        "body": "no-click-animation $0",
+        "description": "Disables the bounce effect when clicking outside of a v-dialog's content when using the persistent prop."
     },
 	"Vuetify now":{
         "prefix": "now",
@@ -1432,7 +1627,7 @@
 	"Vuetify nuxt":{
         "prefix": "nuxt",
         "body": "nuxt $0",
-        "description": "Specifies the link is a nuxt-link"
+        "description": "Specifies the link is a nuxt-link. For use with the nuxt framework."
     },
 	"Vuetify offset-lg":{
         "prefix": "offsetLg",
@@ -1462,7 +1657,7 @@
 	"Vuetify open-on-hover":{
         "prefix": "openOnHover",
         "body": "open-on-hover $0",
-        "description": "Opens speed-dial on hover"
+        "description": "Designates whether component should activate when its activator is hovered. In v-speed-dial Opens speed-dial on hover"
     },
 	"Vuetify order-lg":{
         "prefix": "orderLg",
@@ -1492,7 +1687,7 @@
 	"Vuetify origin":{
         "prefix": "origin",
         "body": "origin=\"${undefined}\" $0",
-        "description": "Sets the transition origin"
+        "description": "Sets the transition origin on the element. You can find more information on the MDN documentation for transition origin."
     },
 	"Vuetify outline":{
         "prefix": "outline",
@@ -1502,7 +1697,7 @@
 	"Vuetify outlined":{
         "prefix": "outlined",
         "body": "outlined $0",
-        "description": "Alert will have an outline."
+        "description": "Removes card elevation shadow and adds a thin border. In v-chip Removes background and applies border and text color"
     },
 	"Vuetify overflow":{
         "prefix": "overflow",
@@ -1512,7 +1707,7 @@
 	"Vuetify overlap":{
         "prefix": "overlap",
         "body": "overlap $0",
-        "description": "Component will overlap the slotted content"
+        "description": "Overlaps the slotted content on top of the component."
     },
 	"Vuetify padding":{
         "prefix": "p",
@@ -1522,7 +1717,12 @@
 	"Vuetify persistent":{
         "prefix": "persistent",
         "body": "persistent $0",
-        "description": "Clicking outside will not dismiss the dialog"
+        "description": "Clicking outside of the element will not deactivate it."
+    },
+	"Vuetify pill":{
+        "prefix": "pill",
+        "body": "pill $0",
+        "description": "Remove v-avatar padding"
     },
 	"Vuetify position":{
         "prefix": "position",
@@ -1532,27 +1732,37 @@
 	"Vuetify prev-icon":{
         "prefix": "prevIcon",
         "body": "prev-icon=\"${1:$vuetify.icons.prev}\" $0",
-        "description": "The displayed icon for forcing pagination to the previous item"
+        "description": "Icon used for the 'prev' button if show-arrows is true"
     },
 	"Vuetify primary-title":{
         "prefix": "primaryTitle",
         "body": "primary-title $0",
         "description": "Applies primary title specific padding."
     },
+	"Vuetify progress":{
+        "prefix": "progress",
+        "body": "progress $0",
+        "description": "Displays a carousel progress bar. Requires the cycle prop and interval."
+    },
+	"Vuetify progress-color":{
+        "prefix": "progressColor",
+        "body": "progress-color=\"${1:undefined}\" $0",
+        "description": "Applies specified color to progress bar."
+    },
 	"Vuetify prominent":{
         "prefix": "prominent",
         "body": "prominent $0",
-        "description": "Displays a larger vertically centered icon to draw more attention OR Increases the height of the toolbar content and extension"
+        "description": "Displays a larger vertically centered icon to draw more attention OR Increases the height of the toolbar content to 128px."
     },
 	"Vuetify raised":{
         "prefix": "raised",
         "body": "raised $0",
-        "description": "Specifies a higher default elevation"
+        "description": "Specifies a higher default elevation (8dp). You can find more information on the elevation page."
     },
 	"Vuetify replace":{
         "prefix": "replace",
         "body": "replace $0",
-        "description": "Vue Router router-link prop"
+        "description": "Setting replace prop will call router.replace() instead of router.push() when clicked, so the navigation will not leave a history record. You can find more information about the replace prop on the vue-router documentation."
     },
 	"Vuetify reverse":{
         "prefix": "reverse",
@@ -1567,7 +1777,7 @@
 	"Vuetify right":{
         "prefix": "right",
         "body": "right $0",
-        "description": "Align the component towards the right"
+        "description": "Designates that the avatar is on the right side of a component. This is hooked into by components such as v-chip and v-btn. OR Aligns the component towards the right. This should be used with the absolute or fixed props."
     },
 	"Vuetify ripple":{
         "prefix": "ripple",
@@ -1579,6 +1789,11 @@
         "body": "round $0",
         "description": "Button will be round on the sides"
     },
+	"Vuetify rounded":{
+        "prefix": "rounded",
+        "body": "rounded $0",
+        "description": "Applies a large border radius on the buttons."
+    },
 	"Vuetify row":{
         "prefix": "row",
         "body": "row $0",
@@ -1587,22 +1802,27 @@
 	"Vuetify scroll-off-screen":{
         "prefix": "scrollOffScreen",
         "body": "scroll-off-screen $0",
-        "description": "Will transition the toolbar and extension off screen when scrolling down"
+        "description": "Will transition the toolbar and extension off screen when scrolling down OR Hides the app-bar when scrolling. Will NOT show the extension slot."
     },
 	"Vuetify scroll-target":{
         "prefix": "scrollTarget",
         "body": "scroll-target=\"${undefined}\" $0",
-        "description": "Assign the scroll target for scroll-off-screen"
+        "description": "Assign the scroll target for scroll-off-screen OR in v-app-bar designates the element to target for scrolling events. Uses window by default."
     },
 	"Vuetify scroll-threshold":{
         "prefix": "scrollThreshold",
         "body": "scroll-threshold=\"${1:300}\" $0",
-        "description": "The amount of scroll distance down before the toolbar uses scroll-off-screen"
+        "description": "The amount of scroll distance down before the toolbar uses scroll-off-screen OR in v-app-bar the amount of scroll distance down before hide-on-scroll activates."
     },
 	"Vuetify scroll-toolbar-off-screen":{
         "prefix": "scrollToolbarOffScreen",
         "body": "scroll-toolbar-off-screen $0",
         "description": "Will transition the toolbar off screen when scrolling down"
+    },
+	"Vuetify scrollable":{
+        "prefix": "scrollable",
+        "body": "scrollable $0",
+        "description": "When set to true, expects a v-card and a v-card-text component with a designated height. For more information, check out the scrollabe example."
     },
 	"Vuetify shaped":{
         "prefix": "shaped",
@@ -1612,7 +1832,12 @@
 	"Vuetify shift":{
         "prefix": "shift",
         "body": "shift $0",
-        "description": "Hide text of button when not active"
+        "description": "Hides text of v-btns when they are not active."
+    },
+	"Vuetify short":{
+        "prefix": "short",
+        "body": "short $0",
+        "description": "Reduce the height of the toolbar content to 56px (112px when using the prominent prop)."
     },
 	"Vuetify short-intervals":{
         "prefix": "shortIntervals",
@@ -1629,6 +1854,21 @@
         "body": "short-weekdays $0",
         "description": "Whether the short versions of a weekday should be used (Mon vs Monday)."
     },
+	"Vuetify show-arrows":{
+        "prefix": "showArrows",
+        "body": "show-arrows $0",
+        "description": "Display the 'next' and 'prev' buttons"
+    },
+	"Vuetify show-arrows-on-hover":{
+        "prefix": "showArrowsOnHover",
+        "body": "show-arrows-on-hover $0",
+        "description": "Display the 'next'and 'prev' buttons on hover. show-arrows MUST ALSO be set."
+    },
+	"Vuetify show-interval-label":{
+        "prefix": "showIntervalLabel",
+        "body": "show-interval-label=\"${1:null}\" $0",
+        "description": "Checks if a given day and time should be displayed in the interval gutter of the day view."
+    },
 	"Vuetify show-interval-on-first":{
         "prefix": "showIntervalLabel",
         "body": "show-interval-label=\"${1:null}\" $0",
@@ -1644,15 +1884,30 @@
         "body": "shrink $0",
         "description": "Apply flex-shrink: 1"
     },
+	"Vuetify shrink-on-scroll":{
+        "prefix": "shrinkOnScroll",
+        "body": "shrink-on-scroll $0",
+        "description": "Shrinks a prominent toolbar to a dense or short (default) one when scrolling."
+    },
+	"Vuetify single-line":{
+        "prefix": "singleLine",
+        "body": "single-line $0",
+        "description": "Forces the banner onto a single line."
+    },
 	"Vuetify size":{
         "prefix": "size",
         "body": "size=\"${1:48}\" $0",
-        "description": "Sets the height and width of the element"
+        "description": "Sets the height and width of the component."
     },
 	"Vuetify sizes":{
         "prefix": "sizes",
         "body": "sizes=\"${1:undefined}\" $0",
         "description": "For use with srcset, see MDN"
+    },
+	"Vuetify slot-icon":{
+        "prefix": "slotIcon",
+        "body": "slot=\"icon\" $0",
+        "description": "The slot used for the icon's content."
     },
 	"Vuetify sm":{
         "prefix": "sm",
@@ -1662,12 +1917,12 @@
 	"Vuetify small":{
         "prefix": "small",
         "body": "small $0",
-        "description": "Small size button"
+        "description": "Makes the component small."
     },
 	"Vuetify src":{
         "prefix": "src",
         "body": "src=\"${1:undefined}\" $0",
-        "description": "The image to display as a background."
+        "description": "Specifies a v-img as the component's background."
     },
 	"Vuetify srcset":{
         "prefix": "srcset",
@@ -1684,6 +1939,11 @@
         "body": "status $0",
         "description": "Reduces the system bar height"
     },
+	"Vuetify sticky":{
+        "prefix": "sticky",
+        "body": "sticky $0",
+        "description": "Applies position: sticky to the component (Evergreen browsers only). You can find more information on the MDN documentation for sticky position."
+    },
 	"Vuetify style":{
         "prefix": "style",
         "body": "style=\"${style}\"",
@@ -1697,32 +1957,37 @@
 	"Vuetify tag":{
         "prefix": "tag",
         "body": "tag=\"${button}\"",
-        "description": "Specify a custom tag to use on the component."
+        "description": "Specify a custom tag used on the root element."
     },
 	"Vuetify target":{
         "prefix": "target",
         "body": "target=\"${undefined}\" $0",
-        "description": "Specify the target attribute."
+        "description": "Designates the target attribute. This should only be applied when using the href prop."
     },
 	"Vuetify text":{
         "prefix": "text",
         "body": "text $0",
-        "description": "Make the background transparent and color the text."
+        "description": "Applies the defined color to text and a low opacity background of the same. In v-btn Makes the background transparent."
+    },
+	"Vuetify text-color":{
+        "prefix": "textColor",
+        "body": "text-color=\"${1:undefined}\" $0",
+        "description": "Applies a specified color to the control text"
     },
 	"Vuetify tile":{
         "prefix": "tile",
         "body": "tile $0",
-        "description": "Removes the component's border-radius"
+        "description": "Removes the component's border-radius."
     },
 	"Vuetify to":{
         "prefix": "to",
         "body": "to=\"${undefined}\" $0",
-        "description": "Will designate the component tag to <router-link>"
+        "description": "Denotes the target route of the link. You can find more information about the to prop on the vue-router documentation."
     },
 	"Vuetify top":{
         "prefix": "top",
         "body": "top $0",
-        "description": "Align the content towards the top"
+        "description": "Aligns the content towards the top."
     },
 	"Vuetify touch":{
         "prefix": "touch",
@@ -1737,7 +2002,7 @@
 	"Vuetify transition":{
         "prefix": "transition",
         "body": "transition=\"${1:fab-transition}\" $0",
-        "description": "Sets the component transition. Can be one of the built in transitions or your own."
+        "description": "Sets the component transition. Can be one of the built in transitions or one your own."
     },
 	"Vuetify type":{
         "prefix": "type",
@@ -1782,7 +2047,7 @@
 	"Vuetify value":{
         "prefix": "value",
         "body": "value=\"${undefined}\" $0",
-        "description": "Controls visibility"
+        "description": "Controls whether the component is visible or hidden OR in v-bottom-navigation Holds the value of the currently active v-btn. If the button has no value supplied, its index will be used instead. In v-btn The value used when the component is selected in a group."
     },
 	"Vuetify value calendar":{
         "prefix": "value",
@@ -1793,6 +2058,11 @@
         "prefix": "vertical",
         "body": "vertical $0",
         "description": "Uses a vertical transition when changing windows"
+    },
+	"Vuetify vertical-delimiters":{
+        "prefix": "verticalDelimiters",
+        "body": "vertical-delimiters=\"${1:undefined}\" $0",
+        "description": "Displays carousel delimiters vertically."
     },
 	"Vuetify weekday-format":{
         "prefix": "weekdayFormat",
@@ -1807,17 +2077,27 @@
 	"Vuetify width":{
         "prefix": "width",
         "body": "width=\"${value}\" $0",
-        "description": "The width of the content"
+        "description": "Sets the width for the component."
     },
 	"Vuetify window":{
         "prefix": "window",
         "body": "window $0",
-        "description": "Increases the system bar height"
+        "description": "Increases the system bar height to 32px (24px default)."
     },
 	"Vuetify wrap":{
         "prefix": "wrap",
         "body": "wrap ",
         "description": "Allows children to wrap within the container if the elements use more than 100%."
+    },
+	"Vuetify x-large":{
+        "prefix": "xLarge",
+        "body": "x-large $0",
+        "description": "Makes the component extra large."
+    },
+	"Vuetify x-small":{
+        "prefix": "xSmall",
+        "body": "x-small $0",
+        "description": "Makes the component extra small."
     },
 	"Vuetify xl":{
         "prefix": "xl",

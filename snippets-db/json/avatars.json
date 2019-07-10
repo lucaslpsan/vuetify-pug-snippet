@@ -1,0 +1,13 @@
+[
+	{"name": "color", "valueDefault": "undefined", "type": "string", "description": "Applies specified color to the control - it can be the name of material color (for example success or purple) or css color (#033 or rgba(255, 0, 0, 0.5)). You can find list of built in classes on the colors page."},
+	{"name": "height", "valueDefault": "undefined", "type": "number | string", "description": "Sets the height for the component."},
+	{"name": "left", "valueDefault": "false", "type": "boolean", "description": "Designates that the avatar is on the left side of a component. This is hooked into by components such as v-chip and v-btn."},
+	{"name": "max-height", "valueDefault": "undefined", "type": "number | string", "description": "Sets the maximum height for the component."},
+	{"name": "max-width", "valueDefault": "undefined", "type": "number | string", "description": "Sets the maximum width for the component."},
+	{"name": "min-height", "valueDefault": "undefined", "type": "number | string", "description": "Sets the minimum height for the component."},
+	{"name": "min-width", "valueDefault": "undefined", "type": "number | string", "description": "Sets the minimum width for the component."},
+	{"name": "right", "valueDefault": "false", "type": "boolean", "description": "Designates that the avatar is on the right side of a component. This is hooked into by components such as v-chip and v-btn."},
+	{"name": "size", "valueDefault": "48", "type": "number | string", "description": "Sets the height and width of the component."},
+	{"name": "tile", "valueDefault": "false", "type": "boolean", "description": "Removes the component's border-radius."},
+	{"name": "width", "valueDefault": "undefined", "type": "number | string", "description": "Sets the width for the component."}
+]

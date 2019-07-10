@@ -1,0 +1,23 @@
+[
+	{"name": "activator", "valueDefault": "undefined", "type": "any", "description": "Designate a custom activator when the activator slot is not used. String can be any valid querySelector and Object can be any valid Node."},
+	{"name": "attach", "valueDefault": "false", "type": "any", "description": "Specifies which DOM element that this component should detach to.String can be any valid querySelector and Object can be any valid Node. This will attach to the root v-app component by default."},
+	{"name": "content-class", "valueDefault": "undefined", "type": "string", "description": "Applies a custom class to the detached element. This is useful because the content is moved to the beginning of the v-app component (unless the attach prop is provided) and is not targettable by classes passed directly on the component."},
+	{"name": "dark", "valueDefault": "false", "type": "boolean", "description": "Applies the dark theme variant to the component. You can find more information on the Material Design documentation for dark themes."},
+	{"name": "disabled", "valueDefault": "false", "type": "boolean", "description": "Disables the ability to open the component."},
+	{"name": "eager", "valueDefault": "false", "type": "boolean", "description": "Will force the components content to render on mounted. This is useful if you have content that will not be rendered in the DOM that you want crawled for SEO."},
+	{"name": "full-width", "valueDefault": "false", "type": "boolean", "description": "Forces the dialog to expand 100% of available width."},
+	{"name": "fullscreen", "valueDefault": "false", "type": "boolean", "description": "Changes layout for fullscreen display."},
+	{"name": "hide-overlay", "valueDefault": "false", "type": "boolean", "description": "Hides the display of the overlay."},
+	{"name": "inset", "valueDefault": "false", "type": "boolean", "description": "Reduces the sheet content maximum width to 70%."},
+	{"name": "internal-activator", "valueDefault": "false", "type": "boolean", "description": "Designates whether the supplied activator prop is inside the component."},
+	{"name": "light", "valueDefault": "false", "type": "boolean", "description": "Applies the light theme variant to the component."},
+	{"name": "max-width", "valueDefault": "auto", "type": "string | number", "description": "Sets the maximum width for the component."},
+	{"name": "no-click-animation", "valueDefault": "false", "type": "boolean", "description": "Disables the bounce effect when clicking outside of a v-dialog's content when using the persistent prop."},
+	{"name": "open-on-hover", "valueDefault": "false", "type": "boolean", "description": "Designates whether component should activate when its activator is hovered."},
+	{"name": "origin", "valueDefault": "center center", "type": "string", "description": "Sets the transition origin on the element. You can find more information on the MDN documentation for transition origin."},
+	{"name": "persistent", "valueDefault": "false", "type": "boolean", "description": "Clicking outside of the element will not deactivate it."},
+	{"name": "scrollable", "valueDefault": "false", "type": "boolean", "description": "When set to true, expects a v-card and a v-card-text component with a designated height. For more information, check out the scrollabe example."},
+	{"name": "transition", "valueDefault": "bottom-sheet-transition", "type": "string", "description": "Sets the component transition. Can be one of the built in transitions or one your own."},
+	{"name": "value", "valueDefault": "undefined", "type": "any", "description": "Controls whether the component is visible or hidden."},
+	{"name": "width", "valueDefault": "auto", "type": "string | number", "description": "Sets the width for the component."}
+]

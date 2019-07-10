@@ -1,0 +1,11 @@
+[
+	{"name": "absolute", "valueDefault": "false", "type": "boolean", "description": "Applies position: absolute to the component."},
+	{"name": "app", "valueDefault": "false", "type": "boolean", "description": "Designates the component as part of the application layout. Used for dynamically adjusting content sizing. Components using this prop should reside outside of v-content component to function properly. You can more information about layouts on the application page."},
+	{"name": "color", "valueDefault": "undefined", "type": "string", "description": "Applies specified color to the control - it can be the name of material color (for example success or purple) or css color (#033 or rgba(255, 0, 0, 0.5)). You can find list of built in classes on the colors page."},
+	{"name": "dark", "valueDefault": "false", "type": "boolean", "description": "Applies the dark theme variant to the component. You can find more information on the Material Design documentation for dark themes."},
+	{"name": "fixed", "valueDefault": "false", "type": "boolean", "description": "Applies position: fixed to the component."},
+	{"name": "height", "valueDefault": "undefined", "type": "number | string", "description": "Sets the height for the component."},
+	{"name": "light", "valueDefault": "false", "type": "boolean", "description": "Applies the light theme variant to the component."},
+	{"name": "lights-out", "valueDefault": "false", "type": "boolean", "description": "Reduces the system bar opacity."},
+	{"name": "window", "valueDefault": "false", "type": "boolean", "description": "Increases the system bar height to 32px (24px default)."}
+]

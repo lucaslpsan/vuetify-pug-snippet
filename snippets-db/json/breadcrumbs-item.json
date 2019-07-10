@@ -1,0 +1,15 @@
+[
+	{"name": "active-class", "valueDefault": "v-breadcrumbs__item--disabled", "type": "string", "description": "Configure the active CSS class applied when the link is active. You can find more information about the active-class prop on the vue-router documentation."},
+	{"name": "append", "valueDefault": "false", "type": "boolean", "description": "Setting append prop always appends the relative path to the current path. You can find more information about the append prop on the vue-router documentation."},
+	{"name": "disabled", "valueDefault": "false", "type": "boolean", "description": "Removes the ability to click or target the component."},
+	{"name": "exact", "valueDefault": "false", "type": "boolean", "description": "Exactly match the link. Without this, '/' will match every route. You can find more information about the exact prop on the vue-router documentation."},
+	{"name": "exact-active-class", "valueDefault": "undefined", "type": "string", "description": "Configure the active CSS class applied when the link is active with exact match. You can find more information about the exact-active-class prop on the vue-router documentation."},
+	{"name": "href", "valueDefault": "undefined", "type": "string | object", "description": "Designates the component as anchor and applies the href attribute."},
+	{"name": "link", "valueDefault": "false", "type": "boolean", "description": "Designates that the component is a link. This is automatic when using the href or to prop."},
+	{"name": "nuxt", "valueDefault": "false", "type": "boolean", "description": "Specifies the link is a nuxt-link. For use with the nuxt framework."},
+	{"name": "replace", "valueDefault": "false", "type": "boolean", "description": "Setting replace prop will call router.replace() instead of router.push() when clicked, so the navigation will not leave a history record. You can find more information about the replace prop on the vue-router documentation."},
+	{"name": "ripple", "valueDefault": "false", "type": "boolean | object", "description": "Applies the v-ripple directive."},
+	{"name": "tag", "valueDefault": "undefined", "type": "string", "description": "Specify a custom tag used on the root element."},
+	{"name": "target", "valueDefault": "undefined", "type": "string", "description": "Designates the target attribute. This should only be applied when using the href prop."},
+	{"name": "to", "valueDefault": "undefined", "type": "string | object", "description": "Denotes the target route of the link. You can find more information about the to prop on the vue-router documentation."}
+]
